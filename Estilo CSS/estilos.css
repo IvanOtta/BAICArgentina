@@ -94,10 +94,11 @@ p {
     margin-bottom: 100px;
     position: relative;
     top: 40px;
+    transition: 0.3s;
 
-
-
-
+}
+.tituloNovedades:hover {
+    color: red;
 }
 
 .conoceBaicTitle {
@@ -1022,13 +1023,13 @@ footer section article nav h4 a:hover {
     padding: 10px;
     display: flex;
     justify-content: center;
-    transition: color 1s;
+    transition: color 0.4s;
 
     
 }
 .horariosConcesionarios:hover {
-    color: orange;
-    background-color: black;
+    color: rgb(218, 49, 49);
+    
     
 
 }
