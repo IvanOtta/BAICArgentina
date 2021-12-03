@@ -6,12 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../Img/baic-logo-61DC36BBC8-seeklogo.com.png">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-  
-  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
     <link rel="stylesheet" href="../Estilo CSS/estilos.css">
     <title>Consecionarios | BAIC Argentina</title>
 </head>
@@ -20,9 +19,9 @@
     <header>
         <a href="../index.html">
             <img src="../Img/pngwing.com.png" height="70px" width="80px" alt="Baic"></a>
-        <h1 class="animate__animated animate__flipInX" >Concesionarios</h1>
+        <h1 class="animate__animated animate__flipInX">Concesionarios</h1>
         <nav>
-            <ul>
+            <ul class="navHeader">
                 <li><a href="modelos.html">Modelos</a> </li>
                 <li><a href="baic.html">Baic</a> </li>
                 <li><a href="concesionarios.html">Consecionarios</a> </li>
@@ -62,19 +61,34 @@
 
         </table>
     </div>
+    <div class="verUbicacionBtn" >
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle botonConces " type="button" id="dropdownMenuButton2"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Ver Ubicación
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                <li><a class="dropdown-item active" href="#">Villa Urquiza</a></li>
+                <li><a class="dropdown-item" href="#">Palermo</a></li>
+                <li><a class="dropdown-item" href="#">San Martín</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Otro</a></li>
+            </ul>
+        </div>
+    </div>
 
 
-
-
-    <div class="containerBAICConce" >
+    <div class="containerBAICConce">
         <div class="containerModels">
             <div class="model red1">
 
                 <section class="senovaImg">
                     <article>
                         <a href="baicsenova.html">
-                            <img  class="x25tamano" src="../Img/Senova.png" alt="BAIC Senova" title="BAIC Senova"></a>
-                        
+                            <img class="x25tamano" src="../Img/Senova.png" alt="BAIC Senova" title="BAIC Senova"></a>
+
                     </article>
 
                 </section>
@@ -84,7 +98,7 @@
                 <article>
                     <a href="baicx35.html">
                         <img class="x35tamano" src="../Img/BAICX35.png"></a>
-                    
+
                 </article>
                 </section>
 
@@ -99,7 +113,7 @@
                     <a href="baicx55.html">
                         <img class="x55tamano" src="../Img/X55.png">
                     </a>
-                    
+
                 </article>
             </section>
         </div>
@@ -145,6 +159,10 @@
         </div>
     </footer>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
