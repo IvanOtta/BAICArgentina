@@ -105,7 +105,7 @@ p {
 }
 .containerTarjeta {
     display: flex;
-    justify-content: flex-end;
+    justify-content: start;
     margin-right: 40px;
     padding: 35px;
 }
@@ -135,11 +135,15 @@ p {
     color: rgb(192, 68, 68);
 }
 
+.conoceBAICcontainer {
+    display: flex;
+    justify-content: center;
+}
 .conoceBaicDesc {
     position: relative;
     top: 80px;
     font-size: 1.1rem;
-    height: 220px;
+    height: 10px;
     width: 80vw;
     text-align: center;
     line-height: 1.8;
@@ -169,10 +173,12 @@ p {
 
 }
 
-.marcaBaic {
+/* .marcaBaic {
     font-size: 1rem;
     line-height: 1.7;
     height: 220px;
+    min-width: 250px;
+    min-height: 250px;
     width: 40vw;
     text-align: left;
     position: relative;
@@ -180,20 +186,42 @@ p {
     padding-top: 55px;
     padding-bottom: 10px;
     padding: 10px;
+    font-size: 1rem;
+    line-height: 1.7;
+    min-width: 450px;
+    height: 4rem;
 
 
-}
 
-.imgAside {
+} */
+
+/* .imgAside {
     display: inline-block;
     position: relative;
     left: 45%;
     height: 200px;
-    width: 200px;
-    bottom: 290px;
+    min-width: 250px;
+    bottom: 400px;
 
 
 
+} */
+.containerMarcaBaic {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 100px 0px ;
+    /* padding: 20px; */
+}
+.marcaBaic {
+    min-width: 250px;
+    margin: 20px auto;
+
+}
+ 
+
+.imgSubtitle {
+    width: 550px;
+    height: 400px;
 }
 
 aside img {
@@ -211,25 +239,56 @@ a {
 
 }
 
+/* .honorContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+} */
+
+.containerx55Honor {
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+/* .baicHonorDescContainer{
+    margin: 50px;
+    padding: 30px;
+}
+ */
 .baicHonorImg {
-    display: inline-block;
-    position: relative;
+   /*  display: inline-block;
+    position: relative; */
     height: 10vh;
     width: 10vw;
     bottom: 50px;
 
 }
+.honorImg {
+    width: 550px;
+    height: 400px;
+}
 
 .baicHonorDesc {
     font-size: 1rem;
+    line-height: 1.7;
     height: 220px;
     width: 40vw;
+    min-width: 30vw;
+    text-align: left;
     position: relative;
-    left: 750px;
-    bottom: 300px;
-    padding: 1rem;
+    bottom: 180px;
+    left: 680px;
+    padding-top: 55px;
+    padding-bottom: 10px;
+    padding: 50px;
 
 
+}
+.baicHonorDescContainer {
+    min-width: 250px;
+    margin: 20px auto;
 }
 
 /* SideBar */
@@ -353,12 +412,12 @@ footer section article nav h4 a:hover {
 
 @media screen and (max-width: 768px) {
     header {
-        height: 155px;
+        height: 140px;
     }
 
     .logoBaic {
-        width: 15%;
-        height: 50%;
+        width: 15vw;
+        height: 10vh;
     }
 
     header nav ul li {
@@ -369,6 +428,10 @@ footer section article nav h4 a:hover {
         position: relative;
         left: 100px;
     }
+    .tituloNovedades {
+        margin: 100px auto;
+        padding: 30px;
+    }
 
     .conoceBaicTitle {
         margin: 40px 20px;
@@ -376,6 +439,12 @@ footer section article nav h4 a:hover {
     }
     .conoceBaicDesc {
         font-size: 1rem;
+    }
+    .containerMarcaBaic {
+        display: flex;
+        flex-direction: column;
+
+    
     }
 
     .gridConoceBaic {
@@ -405,39 +474,40 @@ footer section article nav h4 a:hover {
         bottom: 70px;
         height: 50vh;
         margin: 20px;
+        display: flex;
+        justify-content: center;
 
     }
+    .containerMarcaBaic {
+        display: flex;
+        flex-direction: column;
+    }
 
-    .imgAside {
-        position: relative;
-        bottom: 520px;
+    .containerMarcaBaic {
+        display: flex;
+        flex-direction: column;
     }
 
 
 
     .containerHonor {
         display: grid;
-        grid-template-columns: rep;
+        grid-template-columns: repeat(1,1fr);
     }
 
     .pBaichonor {
-        font-size: 15px;
+        font-size: 1rem;
 
     }
 
-    .baicHonorDesc {
-        font-size: 10px;
-        position: relative;
-        bottom: 720px;
-        left: 400px;
-        line-height: 1.5;
-
+    .honorContainer{
+        display: flex;
+        justify-content: center;
+        
     }
+    
 
-    .honorImg {
-        width: 410px;
-        height: 400px;
-    }
+    
 
     .containerNovedades {
         margin-bottom: 400px;
