@@ -19,14 +19,14 @@
 
 
 
-    <link rel="stylesheet" href="./Estilo CSS/estilos.css">
+    <link rel="stylesheet" href="./css/styles.css">
 
     <title>BAIC Argentina | Bienvenidos a nuestra Web No official</title>
 </head>
 
 
 <body>
-    <header>
+    <!-- <header>
         <a href="./index.html">
             <img class="logoBaic" src="./Img/pngwing.com.png" alt="Baic"></a>
 
@@ -39,7 +39,64 @@
                 <li><a href="./HTML/contacto.html">Contacto</a></li>
             </ul>
         </nav>
+    </header> -->
+
+
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navBarColor">
+            <div class="container-fluid">
+                <a class="navbar-brand baicTitlteHeader" href="./index.html">BAIC Argentina</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./HTML/baic.html">Nosotros</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Modelos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="./HTML/modelos.html">BAIC Motors</a></li>
+                            <li><a class="dropdown-item" href="./HTML/baicsenova.html">BAIC Senova</a></li>
+                            <li><a class="dropdown-item" href="./HTML/baicx35.html">BAIC X35</a></li>
+                            <li><a class="dropdown-item" href="./HTML/baicx55.html">BAIC X55</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./HTML/concesionarios.html">Concesionarios</a>
+                    <li class="nav-item dropdown">
+                </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./HTML/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -51,7 +108,7 @@
                 <h2 class="conoceBaicTitle  animate__animated animate__zoomInLeft ">Conoce <strong>BAIC</strong>
                 </h2>
             </div>
-            <div class="conoceBAICcontainer">
+            <div class="conoceBAICcontainer container-fluid">
                 <p class="conoceBaicDesc">
                     BAIC significa Beiging Automotive Industry Corporation y fue fundada en 1958, tiene presencia en
                     más
@@ -98,7 +155,7 @@
 
     <h2 class="h2Baic ">Tecnología Sueca, estándar Alemán, diseño Italiano, experiencia Única.</h2>
 
-    <div class="containerMarcaBaic container-fluid">
+    <div class="containerMarcaBaic container">
         <div class="marcaBaic">
             <p><strong>BAIC</strong>, la marca china de autos premium, sigue ampliando su
                 presencia en
@@ -114,7 +171,7 @@
             </p>
 
         </div>
-        <div class="imgAsideX35">
+        <div class="imgAsideX35 container">
 
 
             <img class="imgSubtitle" src="./Img/baic-x35-2021-rutamotor-38-1024x683.jpg" alt="Baic X35">
@@ -122,7 +179,7 @@
 
         </div>
     </div>
-    <wdiv class="containerx55Honor container">
+    <div class="containerx55Honor container-fluid">
         <div>
 
             <img class="honorImg" src="./Img/mediana-1.347473.jpg" alt="BAIC Honor">
@@ -157,71 +214,71 @@
 
         </div>
 
-        </div>
+    </div>
 
-        <div id="novedades" class="containerNovedades container ">
+    <div id="novedades" class="containerNovedades container ">
 
-            <aside class="sidebar">
-                <div class="imgNovedades">
-                    <p class="textAside"> BAIC, líder de autos eléctricos en China </p>
-                    <img class="baic-electric" src="./Img/Baic-Electric.jpg" alt="">
-                </div>
+        <aside class="sidebar">
+            <div class="imgNovedades">
+                <p class="textAside"> BAIC, líder de autos eléctricos en China </p>
+                <img class="baic-electric" src="./Img/Baic-Electric.jpg" alt="">
+            </div>
 
-                <div class="imgNovedades">
+            <div class="imgNovedades">
 
-                    <p class="textAside"> BAIC SENOVA </p>
-                    <img class="senovaSidebar" src="./Img/Senova-de-BAIC.png" alt="">
-                </div>
+                <p class="textAside"> BAIC SENOVA </p>
+                <img class="senovaSidebar" src="./Img/Senova-de-BAIC.png" alt="">
+            </div>
 
-                <div class="imgNovedades">
+            <div class="imgNovedades">
 
-                    <p class="textAside"> Nuevos concesionarios de BAIC </p>
-                    <img class="baicPilar" src="./Img/Baic-Pilar.jpeg" alt="">
-                </div>
-            </aside>
-        </div>
+                <p class="textAside"> Nuevos concesionarios de BAIC </p>
+                <img class="baicPilar" src="./Img/Baic-Pilar.jpeg" alt="">
+            </div>
+        </aside>
+    </div>
 
-        </div>
-
-
+    </div>
 
 
 
-        <footer>
-            <div class="footerPages">
-                <section>
-                    <article>
-                        <h2 class="modelosFooter">Modelos</h2>
-                        <nav>
-                            <h4 class="modelosFooter"><a href="./HTML/baicsenova.html">BAIC Senova</a></h4>
-                            <h4 class="modelosFooter"> <a href="./HTML/baicx35.html"> BAIC X35</a></h4>
-                            <h4 class="modelosFooter"> <a href="./HTML/baicx55.html"> BAIC X55</a></h4>
-                        </nav>
-                    </article>
-                </section>
-                <section>
-                    <article>
-                        <h2 class="nosotrosFooter">Nosotros</h2>
-                        <nav>
-                            <h4 class="nosotrosFooter"><a href="./HTML/baic.html"> BAIC</h4>
-                            <h4 class="nosotrosFooter"><a href="./HTML/contacto.html"> Contacto</a></h4>
-
-                        </nav>
-                    </article>
-                </section>
 
 
+    <footer>
+        <div class="footerPages">
+            <section>
+                <article>
+                    <h2 class="modelosFooter">Modelos</h2>
+                    <nav>
+                        <h4 class="modelosFooter"><a href="./HTML/baicsenova.html">BAIC Senova</a></h4>
+                        <h4 class="modelosFooter"> <a href="./HTML/baicx35.html"> BAIC X35</a></h4>
+                        <h4 class="modelosFooter"> <a href="./HTML/baicx55.html"> BAIC X55</a></h4>
+                    </nav>
+                </article>
+            </section>
+            <section>
+                <article>
+                    <h2 class="nosotrosFooter">Nosotros</h2>
+                    <nav>
+                        <h4 class="nosotrosFooter"><a href="./HTML/baic.html"> BAIC</h4>
+                        <h4 class="nosotrosFooter"><a href="./HTML/contacto.html"> Contacto</a></h4>
 
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-            crossorigin="anonymous"></script>
+                    </nav>
+                </article>
+            </section>
+
+
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

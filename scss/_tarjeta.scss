@@ -1,0 +1,22 @@
+.containerTarjeta {
+    display: flex;
+    justify-content: start;
+    margin-right: 40px;
+    padding: 35px;
+}
+.tituloDeTarjeta {
+    display: flex;
+    justify-content: center;
+}
+.boton {
+    background: #ce0627;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 100px;
+    &:hover {
+    background: #ac0521 ;
+    color: rgb(255, 177, 32);
+    }
+}

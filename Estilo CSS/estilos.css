@@ -7,7 +7,7 @@
 }
 
 
-header {
+/* header {
     background-color: rgb(214, 63, 63);
     background-image: radial-gradient(red, rgb(155, 11, 11));
     font-family: 'Roboto', sans-serif;
@@ -19,23 +19,45 @@ header {
 
 
 
+} */
+
+header nav{
+    z-index: 2;
+
+}
+.baicTitlteHeader{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+header nav li a{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+header nav ul li a{
+  
+    transition: all 1s !important;
+}
+header nav ul li a:hover {
+    transform: scale(1.2) !important;
+    color: orange !important;
+}
+.navBarColor{
+    background-image: radial-gradient(red, rgb(192, 63, 24));
 }
 .navHeader {
     display: flex;
     justify-content: center;
 }
 
-header a img {
+/* header a img {
 
     height: 70px;
     width: 85px;
     transition: transform 1s;
-}
-header a img:hover {
+} */
+/* header a img:hover {
     transform: scale(1.1);
 }
-
-h1 {
+ */
+/* h1 {
     text-align: center;
     color: rgb(60, 57, 57);
     margin: 10px 400px;
@@ -43,9 +65,9 @@ h1 {
     margin-top: 10px;
     margin: 10px;
 
-}
+} */
 
-header nav ul li {
+/* header nav ul li {
     color: white;
     list-style-type: none;
     display: inline-block;
@@ -58,18 +80,18 @@ header nav ul li {
 
 
 
-}
-header nav ul li:hover {
+} */
+/* header nav ul li:hover {
     color: orange;
     transform: scale(1.1);
-}
+} */
 
-header a {
+/* header a {
     color: white;
-}
-header a:hover {
+} */
+/* header a:hover {
     color: orange;
-}
+} */
 
 
 
@@ -153,7 +175,7 @@ p {
 }
 
 
-.h2Baic {
+/* .h2Baic {
 
     font-size: 47px;
     text-align: left;
@@ -171,7 +193,7 @@ p {
 
 
 
-}
+} */
 
 /* .marcaBaic {
     font-size: 1rem;
@@ -245,12 +267,11 @@ a {
 } */
 
 .containerx55Honor {
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr); */
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100vh;
+    padding: 0;
+    margin: 0;
+   
 }
 /* .baicHonorDescContainer{
     margin: 50px;
@@ -360,6 +381,7 @@ footer {
 
     background-color: rgb(84, 80, 80);
     width: 100%;
+    
 
 
 
@@ -428,6 +450,10 @@ footer section article nav h4 a:hover {
         position: relative;
         left: 100px;
     }
+    .gridConoceBaic {
+        display: flex;
+        justify-content: center;
+    }
     .tituloNovedades {
         margin: 100px auto;
         padding: 30px;
@@ -487,8 +513,14 @@ footer section article nav h4 a:hover {
         display: flex;
         flex-direction: column;
     }
+    .imgSubtitle {
+        width: 500px;
+    }
 
-
+.honorImg {
+    width: 520px;
+    margin-left: 10px;
+}
 
     .containerHonor {
         display: grid;
@@ -543,7 +575,10 @@ footer section article nav h4 a:hover {
 
     .baicPilar {
         margin: 30px;
-        width: 320px;
+        width: 280px;
+    }
+    footer {
+        width: 100%;
     }
 
 }
@@ -682,7 +717,7 @@ footer section article nav h4 a:hover {
 .infoModelos {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     margin-bottom: 400px;
 }
 .botonInfo {
@@ -701,25 +736,24 @@ footer section article nav h4 a:hover {
     }
 
     .containerModels {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
     }
     .x35Size {
-        width: 70vw;
+        width: 80vw;
         position: relative;
-        left: 40px;
+        left: 100px;
         
     }
     .title {
         font-family:Arial, Helvetica, sans-serif ;
         font-size: 40px;
-        margin: 10px;
-        padding: 5px;
-        border: 2px black solid;
-        border-top: none;
-        border-radius: 50px;
     }
     
+    .infoModelos{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 
@@ -735,7 +769,13 @@ footer section article nav h4 a:hover {
 
 
 
-
+.h2BAICNovedades{
+    display: flex;
+    justify-content: center;
+    color:#ae0723;
+    margin: 50px;
+    padding: 20px;
+}
 
 
 
@@ -1085,6 +1125,7 @@ footer section article nav h4 a:hover {
 
   
 @media screen and (max-width: 768px) {
+    
    .gridContainerBaic {
        margin-top: 100px;
        display: grid;

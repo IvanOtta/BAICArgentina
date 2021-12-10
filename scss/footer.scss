@@ -1,0 +1,43 @@
+footer {
+    background-color: rgb(84, 80, 80);
+    width: 100%;
+    & h4 {
+        font-style: italic;
+
+        & a {
+            color: rgb(165, 159, 159);
+            font-family: "Times New Roman", Times, serif;
+            border: none;
+            transition: color 1s, transform 2s, border-bottom 1s;
+
+            &:hover {
+                color: orange;
+                transform: scale(1.1);
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: solid 2px red;
+            }
+        }
+    }
+}
+.modelosFooter {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 15;
+    align-items: center;
+}
+.footerPages {
+    display: flex;
+    justify-content: space-around;
+}
+.nosotrosFooter {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 15;
+    align-items: center;
+
+    color: rgb(0, 0, 0);
+}

@@ -1,0 +1,17 @@
+ 
+  header {
+    nav{
+        z-index: 2;
+        a{
+            font-family: Arial, Helvetica, sans-serif ;
+            transition: all 1s;
+            &:hover {
+                transform: scale(1.1);
+                color: orange;
+            }
+        }
+    }
+}
+.navBarColor {
+    background-image: radial-gradient(red, rgb(192, 63, 24));
+}
