@@ -743,6 +743,7 @@ footer section article nav h4 a:hover {
         width: 80vw;
         position: relative;
         left: 100px;
+        overflow: hidden;
         
     }
     .title {
@@ -1272,6 +1273,9 @@ footer section article nav h4 a:hover {
     font-size: 18px;
     color: rgb(255, 180, 40);
 }
+.controls:focus{
+    background-color: rgb(173, 173, 173);
+}
 
 .acceptAndDate--lugar {
     width: 100%;
@@ -1314,10 +1318,10 @@ footer section article nav h4 a:hover {
     height:400px;
 }
 .containerConGrid {
-    width: 100%;
+    width: 100vh;
     height: 30vh;
     padding: 20px;
-    margin: 100px;
+    margin: 100px auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);  
@@ -1367,13 +1371,11 @@ footer section article nav h4 a:hover {
 
 @media screen and (max-width: 768px) {
     .containerConGrid {
-        display: grid;
-        grid-template-areas: 
-        "image1 image1"
-        "image2 image2"
-        "image3 image3";
-        width: 1000px;
+        display: flex;
+        flex-direction: column;
         height: 500px;
+        width: 400px;
+        font-size: 1rem;
     }
 
 }
