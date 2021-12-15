@@ -52,6 +52,12 @@ header nav {
   margin-right: 40px;
   padding: 35px; }
 
+/* .containerTarjeta {
+    display: flex;
+    justify-content: start;
+    margin-right: 40px;
+    padding: 35px;
+} */
 .tituloDeTarjeta {
   display: flex;
   justify-content: center; }
@@ -105,6 +111,10 @@ header nav {
   width: 550px;
   height: 400px; }
 
+/* .imgSubtitle {
+    width: 550px;
+    height: 400px;
+} */
 aside img {
   width: 48vw;
   height: 48vh; }
@@ -149,27 +159,44 @@ aside img {
   justify-content: center;
   align-items: center; }
 
-.baic-electric {
-  width: 270px;
+/* .containerNovedades {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+} */
+.baic-electric, .senovaSidebar, .baicPilar {
+  width: 280px;
   height: 200px;
   transition: transform 1s; }
-  .baic-electric:hover {
+  .baic-electric:hover, .senovaSidebar:hover, .baicPilar:hover {
     transform: scale(1.1); }
 
-.senovaSidebar {
-  width: 270px;
-  height: 200px;
-  transition: transform 1s; }
-  .senovaSidebar:hover {
-    transform: scale(1.1); }
-
+/* .senovaSidebar {
+    width: 270px;
+    height: 200px;
+    transition: transform 1s;
+    &:hover {
+        transform: scale(1.1);
+    }
+    
+} */
 .baicPilar {
-  width: 240px;
-  height: 190px;
-  transition: transform 1s; }
-  .baicPilar:hover {
-    transform: scale(1.1); }
+  height: 190px; }
 
+/* .baicPilar {
+    width: 240px;
+    height: 190px;
+    transition: transform 1s;
+    &:hover{
+        transform: scale(1.1);
+    }
+
+} */
 .sidebar {
   margin: 10px;
   padding: 15px;

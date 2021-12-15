@@ -9,10 +9,17 @@
     margin: 20px auto;
 
 }
+@mixin imgCar ($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
 .imgSubtitle {
+    @include imgCar(550px, 400px)
+}
+/* .imgSubtitle {
     width: 550px;
     height: 400px;
-}
+} */
 aside img {
     width: 48vw;
     height: 48vh;

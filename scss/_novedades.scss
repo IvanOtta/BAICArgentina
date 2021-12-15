@@ -1,4 +1,17 @@
-.containerNovedades {
+@mixin novedadesFlexColumn{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerNovedades{
+    @include novedadesFlexColumn
+}
+
+
+
+/* .containerNovedades {
     width: 100%;
     height: 70vh;
     display: flex;
@@ -7,19 +20,23 @@
 
 
 
-}
+} */
 
 
 .baic-electric {
-    width: 270px;
+    width: 280px;
     height: 200px;
     transition: transform 1s;
     &:hover {
         transform: scale(1.1);
     }
 }
-
 .senovaSidebar {
+    @extend .baic-electric;
+
+}
+
+/* .senovaSidebar {
     width: 270px;
     height: 200px;
     transition: transform 1s;
@@ -27,8 +44,12 @@
         transform: scale(1.1);
     }
     
-}
+} */
 .baicPilar {
+    @extend .baic-electric;
+    height: 190px;
+}
+/* .baicPilar {
     width: 240px;
     height: 190px;
     transition: transform 1s;
@@ -36,7 +57,7 @@
         transform: scale(1.1);
     }
 
-}
+} */
 .sidebar {
     margin: 10px;
     padding: 15px;
