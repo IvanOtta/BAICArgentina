@@ -13,8 +13,15 @@
     width: $ancho;
     height: $alto;
 }
+.imgAsideX35{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
 .imgSubtitle {
-    @include imgCar(550px, 400px)
+    @include imgCar(550px, 400px);
+    margin: auto;
+    
 }
 /* .imgSubtitle {
     width: 550px;

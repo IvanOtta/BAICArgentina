@@ -107,9 +107,15 @@ header nav {
   min-width: 250px;
   margin: 20px auto; }
 
+.imgAsideX35 {
+  width: 100%;
+  margin: auto;
+  padding: auto; }
+
 .imgSubtitle {
   width: 550px;
-  height: 400px; }
+  height: 400px;
+  margin: auto; }
 
 /* .imgSubtitle {
     width: 550px;
