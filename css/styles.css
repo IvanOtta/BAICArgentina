@@ -19,6 +19,16 @@ a {
     color: orange !important;
     transform: scale(1.1) !important; }
 
+.h1ContainerIni {
+  width: 100%;
+  margin-top: 100px; }
+
+.h1Inicio {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  color: #c04444; }
+
 header nav {
   z-index: 2; }
   header nav a {
