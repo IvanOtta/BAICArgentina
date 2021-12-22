@@ -19,9 +19,15 @@ a {
     color: orange !important;
     transform: scale(1.1) !important; }
 
+.novedadesItem {
+  width: 20px;
+  margin: 10px; }
+
 .h1ContainerIni {
-  width: 100%;
-  margin-top: 100px; }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px; }
 
 .h1Inicio {
   font-size: 2rem;
@@ -29,12 +35,12 @@ a {
   justify-content: center;
   color: #c04444; }
 
-header nav {
+nav {
   z-index: 2; }
-  header nav a {
+  nav a {
     font-family: Arial, Helvetica, sans-serif;
     transition: all 1s; }
-    header nav a:hover {
+    nav a:hover {
       transform: scale(1.1);
       color: orange; }
 
@@ -114,18 +120,18 @@ header nav {
   margin: 100px 0px; }
 
 .marcaBaic {
-  min-width: 250px;
+  min-width: 300px;
   margin: 20px auto; }
 
 .imgAsideX35 {
   width: 100%;
-  margin: auto;
-  padding: auto; }
+  display: flex;
+  justify-content: center; }
 
 .imgSubtitle {
   width: 550px;
   height: 400px;
-  margin: auto; }
+  min-width: 300px; }
 
 /* .imgSubtitle {
     width: 550px;
@@ -141,14 +147,20 @@ aside img {
   padding: 0;
   margin: 0; }
 
+.containerHonorImg {
+  width: 100%;
+  display: flex;
+  justify-content: start; }
+
 .baicHonorImg {
   height: 10vh;
   width: 10vw;
-  bottom: 50px; }
+  /*  bottom: 50px; */ }
 
 .honorImg {
   width: 550px;
-  height: 400px; }
+  height: 400px;
+  min-width: 300px; }
 
 .baicHonorDesc {
   font-size: 1rem;
@@ -215,7 +227,7 @@ aside img {
 } */
 .sidebar {
   margin: 10px;
-  padding: 15px;
+  padding: 5px;
   align-items: center;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -228,6 +240,110 @@ aside img {
   font-size: 15px;
   display: flex;
   justify-content: center; }
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 140px; }
+  .logoBaic {
+    width: 15vw;
+    height: 10vh; }
+  header nav ul li {
+    font-size: 20px;
+    margin: 0px;
+    padding: 15px;
+    display: inline;
+    position: relative;
+    left: 100px; }
+  .h1ContainerIni {
+    display: flex;
+    justify-content: center;
+    font-size: 10px; }
+  .gridConoceBaic {
+    display: flex;
+    justify-content: center; }
+  .conoceBaicTitle {
+    margin: 40px 20px; }
+  .conoceBaicDesc {
+    font-size: 1rem;
+    margin-bottom: 100px; }
+  .tituloNovedades {
+    margin-top: 100px;
+    font-size: 20px; }
+  .containerMarcaBaic {
+    display: flex;
+    flex-direction: column; }
+  .gridConoceBaic {
+    display: grid;
+    grid-template-columns: 85%; }
+  .imgSubtitle {
+    width: 400px;
+    height: 370px;
+    margin-right: 10px; }
+  .h2Baic {
+    margin: 50px;
+    padding: 20px;
+    font-size: 2rem; }
+  .marcaBaic {
+    width: 100%;
+    min-width: 200px;
+    display: flex;
+    justify-content: start; }
+  .containerMarcaBaic {
+    display: flex;
+    flex-direction: column; }
+  .imgAsidex35 {
+    width: 100%;
+    min-width: 200px;
+    display: flex;
+    justify-content: center; }
+  .imgSubtitle {
+    width: 400px;
+    display: flex;
+    justify-content: center; }
+  .containerHonorImg {
+    width: 100%;
+    min-width: 200px;
+    display: flex;
+    justify-content: center; }
+  .honorImg {
+    width: 20px;
+    min-width: 300px;
+    display: flex;
+    justify-content: center; }
+  .containerHonor {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+  .pBaichonor {
+    font-size: 1rem; }
+  .honorContainer {
+    display: flex;
+    justify-content: center; }
+  .containerNovedades {
+    margin-bottom: 400px;
+    display: flex;
+    flex-direction: column; }
+  .sidebar {
+    margin: 10px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%; }
+  .textAside {
+    margin: 0px;
+    padding: 0px; }
+  /* display: flex;
+    .imgNovedades {
+        justify-content: center;
+        align-items: center 
+        
+    }
+    ;*/
+  .baicPilar {
+    margin: 10px;
+    width: 280px; }
+  footer {
+    width: 100%; } }
 
 footer {
   background-color: #545050;
@@ -266,95 +382,308 @@ footer {
   align-items: center;
   color: black; }
 
-@media screen and (max-width: 768px) {
-  header {
-    height: 140px; }
-  .logoBaic {
-    width: 15vw;
-    height: 10vh; }
-  header nav ul li {
-    font-size: 20px;
-    margin: 0px;
-    padding: 15px;
-    display: inline;
-    position: relative;
-    left: 100px; }
-  .gridConoceBaic {
-    display: flex;
-    justify-content: center; }
-  .tituloNovedades {
-    margin: 100px auto;
-    padding: 30px; }
-  .conoceBaicTitle {
-    margin: 40px 20px; }
-  .conoceBaicDesc {
-    font-size: 1rem; }
-  .containerMarcaBaic {
-    display: flex;
-    flex-direction: column; }
-  .gridConoceBaic {
-    display: grid;
-    grid-template-columns: 85%; }
-  .imgSubtitle {
-    width: 400px;
-    height: 370px;
-    margin-right: 10px; }
-  .h2Baic {
-    margin: 50px;
-    padding: 20px;
-    font-size: 2rem; }
-  .marcaBaic {
-    font-size: 15px;
-    position: relative;
-    bottom: 70px;
-    height: 50vh;
+/* Sobre BAIC */
+.h2BAICNovedades {
+  display: flex;
+  justify-content: center;
+  color: #ae0723;
+  margin: 50px;
+  padding: 20px; }
+
+.img1984 {
+  display: flex;
+  flex-direction: left;
+  margin-left: 10px; }
+
+.text1984 {
+  font-size: 1.1rem;
+  height: 10vh;
+  width: 60vw;
+  line-height: 2.0;
+  text-align: left;
+  position: relative;
+  padding: 5px;
+  margin: 5px;
+  margin-bottom: 70px;
+  position: relative;
+  left: 0px; }
+
+.elPrimerAutoCompleto {
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 15px;
+  margin: 30px;
+  text-align: left; }
+
+.title1996 {
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px;
+  margin: 10px;
+  text-align: left; }
+
+.img1996 {
+  display: flex;
+  flex-direction: left;
+  margin-left: 35px; }
+
+.text1996 {
+  font-size: 1.1rem;
+  height: 10vh;
+  width: 60vw;
+  line-height: 2.0;
+  text-align: left;
+  position: relative;
+  padding-top: 10px;
+  padding: 7px;
+  margin: 10px;
+  margin-bottom: 100px;
+  position: relative;
+  left: 0px; }
+
+.title2002 {
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px;
+  margin: 10px;
+  text-align: left; }
+
+.img2002 {
+  display: flex;
+  flex-direction: left;
+  margin-left: 35px; }
+
+.text2002 {
+  font-size: 1.1rem;
+  height: 10vh;
+  width: 60vw;
+  line-height: 2.0;
+  text-align: left;
+  position: relative;
+  padding-top: 10px;
+  padding: 7px;
+  margin: 10px;
+  margin-bottom: 100px;
+  position: relative;
+  left: 0px; }
+
+.titlePrimerMercedesBenzNivelNacional {
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px;
+  margin: 10px;
+  text-align: left; }
+
+.img2006 {
+  display: flex;
+  flex-direction: left;
+  margin-left: 35px; }
+
+.text2006 {
+  font-size: 1.1rem;
+  height: 10vh;
+  width: 60vw;
+  line-height: 2.0;
+  text-align: left;
+  position: relative;
+  padding-top: 10px;
+  padding: 7px;
+  margin: 10px;
+  margin-bottom: 100px;
+  position: relative;
+  left: 0px; }
+
+.titleBaicMotor2009 {
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px;
+  margin: 10px;
+  text-align: left; }
+
+.img2009 {
+  display: flex;
+  flex-direction: left;
+  margin-left: 35px; }
+
+.text2009 {
+  font-size: 1.1rem;
+  height: 10vh;
+  width: 60vw;
+  line-height: 2.0;
+  text-align: left;
+  position: relative;
+  padding-top: 10px;
+  padding: 7px;
+  margin: 10px;
+  margin-bottom: 100px;
+  position: relative;
+  left: 0px; }
+
+.primeraMarcaIndependiente2012 {
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px;
+  margin: 10px;
+  text-align: left; }
+
+.img2012 {
+  display: flex;
+  flex-direction: left;
+  margin-left: 35px; }
+
+.text2012 {
+  font-size: 1.1rem;
+  height: 10vh;
+  width: 60vw;
+  line-height: 2.0;
+  text-align: left;
+  position: relative;
+  padding-top: 10px;
+  padding: 7px;
+  margin: 10px;
+  margin-bottom: 100px;
+  position: relative;
+  left: 0px; }
+
+.title20122 {
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px;
+  margin: 10px;
+  text-align: left; }
+
+.img20122 {
+  display: flex;
+  flex-direction: left;
+  margin-left: 35px; }
+
+.text20122 {
+  font-size: 1.1rem;
+  height: 10vh;
+  width: 60vw;
+  line-height: 2.0;
+  text-align: left;
+  position: relative;
+  padding-top: 10px;
+  padding: 7px;
+  margin: 10px;
+  margin-bottom: 100px;
+  position: relative;
+  left: 0px; }
+
+.title2013 {
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px;
+  margin: 10px;
+  text-align: left; }
+
+.img2013 {
+  display: flex;
+  flex-direction: left;
+  margin-left: 35px; }
+
+.text2013 {
+  font-size: 1.1rem;
+  height: 10vh;
+  width: 60vw;
+  line-height: 2.0;
+  text-align: left;
+  position: relative;
+  padding-top: 10px;
+  padding: 7px;
+  margin: 10px;
+  margin-bottom: 100px;
+  position: relative;
+  left: 0px; }
+
+.title20132 {
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px;
+  margin: 10px;
+  text-align: left; }
+
+.img20132 {
+  display: flex;
+  flex-direction: left;
+  margin-left: 35px; }
+
+.img20132 {
+  display: flex;
+  flex-direction: left;
+  margin-left: 35px; }
+
+.text20132 {
+  font-size: 1.1rem;
+  height: 10vh;
+  width: 60vw;
+  line-height: 2.0;
+  text-align: left;
+  position: relative;
+  padding-top: 10px;
+  padding: 7px;
+  margin: 10px;
+  margin-bottom: 100px;
+  position: relative;
+  left: 0px; }
+
+.title20133 {
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px;
+  margin: 10px;
+  text-align: left; }
+
+.img20133 {
+  display: flex;
+  flex-direction: left;
+  margin-left: 35px; }
+
+.text20133 {
+  font-size: 1.1rem;
+  height: 10vh;
+  width: 60vw;
+  line-height: 2.0;
+  text-align: left;
+  position: relative;
+  padding-top: 10px;
+  padding: 7px;
+  margin: 10px;
+  margin-bottom: 100px;
+  position: relative;
+  left: 0px; }
+
+.gridContainerBaic {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+
+p {
+  font-size: 1,1rem;
+  line-height: 1,7;
+  height: 100px;
+  width: 500px;
+  margin: 50px;
+  margin-top: 0px;
+  padding: 2px; }
+  p img {
     margin: 20px;
-    display: flex;
-    justify-content: center; }
-  .containerMarcaBaic {
-    display: flex;
-    flex-direction: column; }
-  .containerMarcaBaic {
-    display: flex;
-    flex-direction: column; }
-  .imgSubtitle {
-    width: 500px; }
-  .honorImg {
-    width: 520px;
-    margin-left: 10px; }
-  .containerHonor {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr); }
-  .pBaichonor {
-    font-size: 1rem; }
-  .honorContainer {
-    display: flex;
-    justify-content: center; }
-  .containerNovedades {
-    margin-bottom: 400px;
-    display: flex;
-    flex-direction: column; }
-  .sidebar {
-    margin: 20px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    /*   display: grid;
-    grid-template-columns: repeat(2, 1fr); */
-    width: 100%;
-    height: 50%; }
-  .textAside {
-    margin: 0px;
-    padding: 0px; }
-  /* display: flex;
-    .imgNovedades {
-        justify-content: center;
-        align-items: center 
-        
-    }
-    ;*/
-  .baicPilar {
-    margin: 30px;
-    width: 280px; }
-  footer {
-    width: 100%; } }
+    padding: 10px; }
+
+.baicArgentina {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 2;
+  height: 50vh;
+  width: 100%;
+  font-size: 17px; }
+
+.tituloCardUno {
+  display: flex;
+  justify-content: center; }
+
+.cartaNosotros {
+  display: flex;
+  justify-content: center; }

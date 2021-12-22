@@ -5,7 +5,7 @@
     
 }
 .marcaBaic {
-    min-width: 250px;
+    min-width: 300px;
     margin: 20px auto;
 
 }
@@ -15,12 +15,13 @@
 }
 .imgAsideX35{
     width: 100%;
-    margin: auto;
-    padding: auto;
+    display: flex;
+    justify-content: center
 }
 .imgSubtitle {
     @include imgCar(550px, 400px);
-    margin: auto;
+    min-width: 300px;
+    
     
 }
 /* .imgSubtitle {

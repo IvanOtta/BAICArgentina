@@ -599,63 +599,6 @@ footer section article nav h4 a:hover {
 
 
 
-/* 
-.h3Senova {
-    font-size: 30px;
-    position: relative;
-    top: 650px;
-    left: 210px;
-
-}
-
-.senovaImg {
-    height: 200px;
-    width: 200px;
-    display: flex;
-    justify-content: left;
-    margin: 1px;
-    position: relative;
-    top: 150px;
-    left: 5px;
-
-
-}
-
-.h3X35 {
-    font-size: 30px;
-    position: relative;
-    top: 357px;
-    left: 860px;
-
-}
-
-.baicX35Img {
-    height: 480px;
-    width: 480px;
-    position: relative;
-    top: -150px;
-    left: 570px;
-}
-
-.h3X55 {
-    font-size: 30px;
-    position: relative;
-    bottom: 10px;
-    left: 545px;
-    margin: 10px;
-    padding: 4px;
-
-
-}
-
-.baicX55Img {
-    height: 480px;
-    width: 480px;
-    position: relative;
-    top: 50px;
-    left: 300px;
-}
- */
  .containerh1Models{
      width: 100%;
      margin-top: 100px;
@@ -667,7 +610,7 @@ footer section article nav h4 a:hover {
      color: #ae0723;
      font-family: sans-serif;
  }
-
+ 
 .containerModels {
     margin: 100px 0px;
     padding: 40px;
@@ -677,7 +620,7 @@ footer section article nav h4 a:hover {
 }
 
 .red1 {
-    margin: 20px;
+    margin: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -689,7 +632,7 @@ footer section article nav h4 a:hover {
 
     
 .x35Size {
-    width: 45vw;
+    width: 500px;
     height: 40vh;
     position: relative;
     top: 35px;
@@ -781,12 +724,12 @@ footer section article nav h4 a:hover {
 
 
 
-.h2BAICNovedades{
+.h1BAICNovedades{
     display: flex;
     justify-content: center;
     color:#ae0723;
-    margin: 50px;
-    padding: 20px;
+    margin: 0px auto;
+    padding: 100px;
 }
 
 
@@ -795,7 +738,8 @@ footer section article nav h4 a:hover {
 .img1984 {
     display: flex;
     flex-direction: left;
-    margin-left: 10px;
+    /* margin-left: 10px; */
+    margin: 10px auto;
 }
 
 .text1984 {
@@ -1083,22 +1027,11 @@ footer section article nav h4 a:hover {
     left: 0px;
 }
 
-/* .baicArgentina {
-    font-size: 1.1rem;
-    height: 50vh;
-    width: 80vw;
-    line-height: 2.0;
-    text-align: left;
-    position: relative;
-    padding-top: 10px;
-    padding: 7px;
-    margin: 10px;
-    margin-bottom: 10px;
-} */
+
 .gridContainerBaic {
     margin-top: 100px;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
 }
 .gridContainerBaic p {
     font-size: 1,1rem;
@@ -1108,9 +1041,7 @@ footer section article nav h4 a:hover {
     margin: 50px;
     margin-top: 0px;
     padding: 2px;
-   /*  padding-top: 55px;
-    padding-bottom: 10px;
-    padding: 10px; */
+   
 }
 .gridContainerBaic img {
     margin: 20px;

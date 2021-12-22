@@ -5,15 +5,22 @@
     margin: 0;
    
 }
+.containerHonorImg{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+      
 .baicHonorImg {
      height: 10vh;
      width: 10vw;
-     bottom: 50px;
+    /*  bottom: 50px; */
  
  }
  .honorImg {
     width: 550px;
     height: 400px;
+    min-width: 300px;
 }
 .baicHonorDesc {
     font-size: 1rem;
