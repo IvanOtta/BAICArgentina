@@ -11,16 +11,7 @@
 
 
 
-/* .containerNovedades {
-    width: 100%;
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-
-
-} */
 
 
 .baic-electric {
@@ -36,28 +27,12 @@
 
 }
 
-/* .senovaSidebar {
-    width: 270px;
-    height: 200px;
-    transition: transform 1s;
-    &:hover {
-        transform: scale(1.1);
-    }
-    
-} */
+
 .baicPilar {
     @extend .baic-electric;
     height: 190px;
 }
-/* .baicPilar {
-    width: 240px;
-    height: 190px;
-    transition: transform 1s;
-    &:hover{
-        transform: scale(1.1);
-    }
 
-} */
 .sidebar {
     margin: 10px;
     padding: 5px;

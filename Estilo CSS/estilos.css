@@ -610,106 +610,56 @@ footer section article nav h4 a:hover {
      color: #ae0723;
      font-family: sans-serif;
  }
- 
-.containerModels {
-    margin: 100px 0px;
-    padding: 40px;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    
+ .containerModelosBAIC{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+.containerModelosBAIC  img{
+    max-width: 100%;
+    width: 400px;
+    transition: all 1s;
+}
+.containerModelosBAIC img:hover{
+    transform: scale(0.9);
+    max-width: 100%;
+}
+.infoModelos{
+    display: flex;
+    justify-content: center;
+
 }
 
-.red1 {
-    margin: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: transform 1s;
+.btncolor{
+    background-color: #ac0521;
 }
-.red1:hover {
-    transform: scale(1.1);
+.btncolor:hover{
+    color: orange;
+    background: #8d0408;
 }
 
-    
-.x35Size {
-    width: 500px;
-    height: 40vh;
-    position: relative;
-    top: 35px;
-    transition: 1s;
-    
-}
-.x35Size:hover{
-    transform: scale(1.1);
-}
-
-.baicX35Img {
-    width: 100px;
-    height: 20px;
-}
-.title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 20px;
-    font-weight: 300;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 1.4rem;
-}
-.x55Center {
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    bottom: 150px;
-    transition: 1s;
-}
-.x55Center:hover {
-    transform: scale(1.1);
-}
-.infoModelos {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 400px;
-}
-.botonInfo {
-    background:#ac0521;
-}
-.botonInfo:hover {
-    background:#8d0408;
-    color: rgb(235, 154, 5);
-    
+.containerEspacio{
+    width: 100%;
+    height: 500px;
 }
 
 @media screen and (max-width: 768px) {
-    .allContainer {
+    .infoModelos {
         display: flex;
         justify-content: center;
+        max-width: 100%;
     }
-
-    .containerModels {
-        display: flex;
-        flex-direction: column;
-    }
-    .x35Size {
-        width: 80vw;
-        position: relative;
-        left: 100px;
-        overflow: hidden;
-        
-    }
-    .title {
-        font-family:Arial, Helvetica, sans-serif ;
-        font-size: 40px;
-    }
-    
-    .infoModelos{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+    .widthText{
+        max-width: 100%;
+        width: 200px;
     }
 }
+
+
 
 
 
@@ -721,375 +671,170 @@ footer section article nav h4 a:hover {
 
                             /* BAIC */
 
+                            .h1BAIC{
+                                width: 100%;
+                                display: flex;
+                                justify-content: center;
+                                
+                            }
+                            .titleNosotros{
+                                display: flex;
+                                justify-content: center;
+                                margin: 100px;
+                                padding: 16px;
+                                font-family:sans-serif;
+                                display: flex;
+                                justify-content: start;
+                                font-size: 2rem;
+                                color: #d04242;
+                               
+                            
+                            }
+                            
+                            .containerNosotros{
+                                display: grid;
+                                grid-template-columns: repeat(2, 1fr);
+                                margin: 50px;
+                            }
+                            .containerImg{
+                                width: 100px;
+                            }
+                            .containerNosotros img{
+                                width: 300px;
+                            }
+                            .containerNosotros h2{
+                                color: #c04444;
+                                margin: 30px;
+                                padding: 15px;
+                            }
+                            .containerNosotros p{
+                                margin: 30px;
+                                padding: 15px;
+                            }
+                            
+                            footer{
+                                background-color: rgb(55, 52, 52);
+                                width: 100%;
+                                height: 300px;
+                                font-family: sans-serif;
+                            }
+                            footer h2{
+                                color: #A30005;
+                                font-size: 2rem;
+                                font-family: 'Cairo', sans-serif;
+                            }
+                            
+                            
+                            
+                            footer ul li{
+                                list-style-type: none;
+                            }
+                            footer ul li a{
+                                text-decoration: none;
+                                color: white;
+                                transition: transform 1s, color 0.5s ;
+                            }
+                            footer ul li a:hover{
+                                color: orange;
+                                transform: scale(1.1);
+                            }
+                            .containerFooter{
+                                display: flex;
+                                justify-content: space-around;
+                                
+                            }
+                            .containerFooterNosotros{
+                                align-items: center;
+                            }
+                            .containerRedes{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            .icon{
+                                display: flex;
+                                justify-content: center;
+                                color:#d04242;
+                            }
+                            .icon{
+                                background-color: white;
+                                align-items: center;
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 50px;
+                                border: red;
+                                transition: background-color 0.5s, transform 1s;
+                            }
+                            .icon:hover{
+                                background-color: rgb(175, 173, 173);
+                                transform: scale(1.4);
+                            
+                            
+                            }
+                            
+                            
+                            @media screen and (max-width: 768px){
+                                .containerNosotros{
+                                    display: flex;
+                                    flex-direction: column;
+                                justify-content: start;
+                                margin: 10px auto;
+                                }
+                               
+                                footer{
+                                  height: 500px;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items: center;
+                                }
+                                footer li{
+                                    display: flex;
+                                    justify-content: center;
+                                }
+                                footer h2{
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin-left: 40px;
+                                }
+                                .containerAllFooter{
+                                    display: grid;
+                                    grid-template-columns: repeat(1, 1fr);
+                                }
+                                .containerImg{
+                                    width: 100%;
+                                    margin: 0 auto;
+                                }
+                                .containerNosotros img{
+                                    max-width: 100%;
+                                    
+                                    
+                                }
+                                .icon{
+                                    background-color: white;
+                                    align-items: center;
+                                    width: 30px;
+                                    height: 30px;
+                                    border-radius: 50px;
+                                    transition: background-color 0.5s, transform 1s;
+                                }
+                                .icon:hover{
+                                    background-color: rgb(175, 173, 173);
+                                    transform: scale(1.1);
+                                }
+                                .containerRedes{
+                                    display: flex;
+                                    justify-content: space-between;
+                                }
+                                .containerFooter{
+                                    display: grid;
+                                    grid-template-columns: repeat(1, 1fr);
+                                }
+                            
+                            }
 
 
 
-.h1BAICNovedades{
-    display: flex;
-    justify-content: center;
-    color:#ae0723;
-    margin: 0px auto;
-    padding: 100px;
-}
-
-
-
-
-.img1984 {
-    display: flex;
-    flex-direction: left;
-    /* margin-left: 10px; */
-    margin: 10px auto;
-}
-
-.text1984 {
-    font-size: 1.1rem;
-    height: 10vh;
-    width: 60vw;
-    line-height: 2.0;
-    text-align: left;
-    position: relative;
-    padding: 5px;
-    margin: 5px;
-    margin-bottom: 70px;
-    position: relative;
-    left: 0px;
-}
-
-.elPrimerAutoCompleto {
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 15px;
-    margin: 30px;
-    text-align: left;
-}
-
-
-.title1996 {
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 5px;
-    margin: 10px;
-    text-align: left;
-}
-
-.img1996 {
-    display: flex;
-    flex-direction: left;
-    margin-left: 35px;
-}
-
-.text1996 {
-    font-size: 1.1rem;
-    height: 10vh;
-    width: 60vw;
-    line-height: 2.0;
-    text-align: left;
-    position: relative;
-    padding-top: 10px;
-    padding: 7px;
-    margin: 10px;
-    margin-bottom: 100px;
-    position: relative;
-    left: 0px;
-}
-
-.title2002 {
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 5px;
-    margin: 10px;
-    text-align: left;
-}
-
-
-.img2002 {
-    display: flex;
-    flex-direction: left;
-    margin-left: 35px;
-}
-
-.text2002 {
-    font-size: 1.1rem;
-    height: 10vh;
-    width: 60vw;
-    line-height: 2.0;
-    text-align: left;
-    position: relative;
-    padding-top: 10px;
-    padding: 7px;
-    margin: 10px;
-    margin-bottom: 100px;
-    position: relative;
-    left: 0px;
-}
-
-.titlePrimerMercedesBenzNivelNacional {
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 5px;
-    margin: 10px;
-    text-align: left;
-}
-
-.img2006 {
-    display: flex;
-    flex-direction: left;
-    margin-left: 35px;
-}
-
-.text2006 {
-    font-size: 1.1rem;
-    height: 10vh;
-    width: 60vw;
-    line-height: 2.0;
-    text-align: left;
-    position: relative;
-    padding-top: 10px;
-    padding: 7px;
-    margin: 10px;
-    margin-bottom: 100px;
-    position: relative;
-    left: 0px;
-}
-
-.titleBaicMotor2009 {
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 5px;
-    margin: 10px;
-    text-align: left;
-}
-
-.img2009 {
-    display: flex;
-    flex-direction: left;
-    margin-left: 35px;
-}
-
-.text2009 {
-    font-size: 1.1rem;
-    height: 10vh;
-    width: 60vw;
-    line-height: 2.0;
-    text-align: left;
-    position: relative;
-    padding-top: 10px;
-    padding: 7px;
-    margin: 10px;
-    margin-bottom: 100px;
-    position: relative;
-    left: 0px;
-}
-
-.primeraMarcaIndependiente2012 {
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 5px;
-    margin: 10px;
-    text-align: left;
-}
-
-.img2012 {
-    display: flex;
-    flex-direction: left;
-    margin-left: 35px;
-}
-
-.text2012 {
-    font-size: 1.1rem;
-    height: 10vh;
-    width: 60vw;
-    line-height: 2.0;
-    text-align: left;
-    position: relative;
-    padding-top: 10px;
-    padding: 7px;
-    margin: 10px;
-    margin-bottom: 100px;
-    position: relative;
-    left: 0px;
-}
-
-.title20122 {
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 5px;
-    margin: 10px;
-    text-align: left;
-}
-
-.img20122 {
-    display: flex;
-    flex-direction: left;
-    margin-left: 35px;
-}
-
-.text20122 {
-    font-size: 1.1rem;
-    height: 10vh;
-    width: 60vw;
-    line-height: 2.0;
-    text-align: left;
-    position: relative;
-    padding-top: 10px;
-    padding: 7px;
-    margin: 10px;
-    margin-bottom: 100px;
-    position: relative;
-    left: 0px;
-}
-
-.title2013 {
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 5px;
-    margin: 10px;
-    text-align: left;
-}
-
-.img2013 {
-    display: flex;
-    flex-direction: left;
-    margin-left: 35px;
-}
-
-.text2013 {
-    font-size: 1.1rem;
-    height: 10vh;
-    width: 60vw;
-    line-height: 2.0;
-    text-align: left;
-    position: relative;
-    padding-top: 10px;
-    padding: 7px;
-    margin: 10px;
-    margin-bottom: 100px;
-    position: relative;
-    left: 0px;
-}
-
-.title20132 {
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 5px;
-    margin: 10px;
-    text-align: left;
-}
-
-.img20132 {
-    display: flex;
-    flex-direction: left;
-    margin-left: 35px;
-}
-
-.text20132 {
-    font-size: 1.1rem;
-    height: 10vh;
-    width: 60vw;
-    line-height: 2.0;
-    text-align: left;
-    position: relative;
-    padding-top: 10px;
-    padding: 7px;
-    margin: 10px;
-    margin-bottom: 100px;
-    position: relative;
-    left: 0px;
-}
-
-.title20133 {
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 5px;
-    margin: 10px;
-    text-align: left;
-}
-
-.img20133 {
-    display: flex;
-    flex-direction: left;
-    margin-left: 35px;
-}
-
-.text20133 {
-    font-size: 1.1rem;
-    height: 10vh;
-    width: 60vw;
-    line-height: 2.0;
-    text-align: left;
-    position: relative;
-    padding-top: 10px;
-    padding: 7px;
-    margin: 10px;
-    margin-bottom: 100px;
-    position: relative;
-    left: 0px;
-}
-
-
-.gridContainerBaic {
-    margin-top: 100px;
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-}
-.gridContainerBaic p {
-    font-size: 1,1rem;
-    line-height: 1,7;
-    height: 100px;
-    width: 500px;
-    margin: 50px;
-    margin-top: 0px;
-    padding: 2px;
-   
-}
-.gridContainerBaic img {
-    margin: 20px;
-    padding: 10px;
-}
-.baicArgentina {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    line-height: 2;
-    height: 50vh;
-    width: 100%;
-    font-size: 17px;
-    
-}
-.tituloCardUno {
-    display: flex;
-    justify-content: center;
-}
-.cartaNosotros {
-    display: flex;
-    justify-content: center;
-}
-
-  
-@media screen and (max-width: 768px) {
-    
-   .gridContainerBaic {
-       margin-top: 100px;
-       display: grid;
-       grid-template-columns: repeat(1, 1fr);
-
-   }
-   .gridContainerBaic h3 {
-       display: flex;
-       justify-content: center;
-   }
-   .gridContainerBaic div img {
-       display: flex;
-       justify-content: center;
-   }
-   .baicArgentina { 
-       width: 100%;
-       height: 30%;
-   }
-       
-   
-}
 
 
 

@@ -1,8 +1,8 @@
-/* INICIO */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: sans-serif; }
 
 p {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -13,7 +13,7 @@ p {
 a {
   color: black;
   text-decoration: none;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Bebas Neue', sans;
   transition: all 0.6s !important; }
   a:hover {
     color: orange !important;
@@ -45,7 +45,7 @@ nav {
       color: orange; }
 
 .navBarColor {
-  background-image: radial-gradient(red, #c03f18); }
+  background-image: radial-gradient(#ff1d1d, #dc5c35); }
 
 .tituloNovedades {
   list-style-type: circle;
@@ -187,16 +187,6 @@ aside img {
   justify-content: center;
   align-items: center; }
 
-/* .containerNovedades {
-    width: 100%;
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-
-} */
 .baic-electric, .senovaSidebar, .baicPilar {
   width: 280px;
   height: 200px;
@@ -204,27 +194,9 @@ aside img {
   .baic-electric:hover, .senovaSidebar:hover, .baicPilar:hover {
     transform: scale(1.1); }
 
-/* .senovaSidebar {
-    width: 270px;
-    height: 200px;
-    transition: transform 1s;
-    &:hover {
-        transform: scale(1.1);
-    }
-    
-} */
 .baicPilar {
   height: 190px; }
 
-/* .baicPilar {
-    width: 240px;
-    height: 190px;
-    transition: transform 1s;
-    &:hover{
-        transform: scale(1.1);
-    }
-
-} */
 .sidebar {
   margin: 10px;
   padding: 5px;
@@ -329,6 +301,8 @@ aside img {
     flex-direction: column;
     width: 100%;
     height: 50%; }
+    .sidebar img {
+      max-width: 100%; }
   .textAside {
     margin: 0px;
     padding: 0px; }
@@ -346,344 +320,270 @@ aside img {
     width: 100%; } }
 
 footer {
-  background-color: #545050;
-  width: 100%; }
-  footer h4 {
-    font-style: italic; }
-    footer h4 a {
-      color: #a59f9f;
-      font-family: "Times New Roman", Times, serif;
-      border: none;
-      transition: color 1s, transform 2s, border-bottom 1s; }
-      footer h4 a:hover {
-        color: orange;
-        transform: scale(1.1);
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        border-bottom: solid 2px red; }
+  background-color: #373434;
+  width: 100%;
+  height: 300px;
+  font-family: sans-serif; }
+  footer h2 {
+    color: #A30005;
+    font-size: 2rem;
+    font-family: 'Cairo', sans-serif; }
+    footer h2 li {
+      list-style-type: none;
+      font-family: sans-serif; }
+      footer h2 li a {
+        text-decoration: none;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: white;
+        transition: transform 1s, color 0.5s; }
+        footer h2 li a a:hover {
+          color: orange;
+          transform: scale(1.1); }
 
-.modelosFooter {
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-  padding: 15;
-  align-items: center; }
-
-.footerPages {
+.containerFooter {
   display: flex;
   justify-content: space-around; }
 
-.nosotrosFooter {
+.containerFooterNosotros {
+  align-items: center; }
+
+.containerRedes {
   display: flex;
-  flex-direction: column;
-  margin: 20px;
-  padding: 15;
+  justify-content: center;
+  align-items: center; }
+
+.icon {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  color: #d04242;
   align-items: center;
-  color: black; }
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  border: red;
+  transition: background-color 0.5s, transform 1s; }
 
-/* Sobre BAIC */
-.h2BAICNovedades {
-  display: flex;
-  justify-content: center;
-  color: #ae0723;
-  margin: 50px;
-  padding: 20px; }
+.icon:hover {
+  background-color: #afadad;
+  transform: scale(1.4); }
 
-.img1984 {
-  display: flex;
-  flex-direction: left;
-  margin-left: 10px; }
+@media screen and (max-width: 768px) {
+  .containerNosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 10px auto; }
+  footer {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  footer li {
+    display: flex;
+    justify-content: center; }
+  footer h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px; }
+  .containerAllFooter {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+  .containerImg {
+    width: 100%;
+    margin: 0 auto; }
+  .containerNosotros img {
+    max-width: 100%; }
+  .icon {
+    background-color: white;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    transition: background-color 0.5s, transform 1s; }
+  .icon:hover {
+    background-color: #afadad;
+    transform: scale(1.1); }
+  .containerRedes {
+    display: flex;
+    justify-content: space-between; }
+  .containerFooter {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); } }
 
-.text1984 {
-  font-size: 1.1rem;
-  height: 10vh;
-  width: 60vw;
-  line-height: 2.0;
-  text-align: left;
-  position: relative;
-  padding: 5px;
-  margin: 5px;
-  margin-bottom: 70px;
-  position: relative;
-  left: 0px; }
-
-.elPrimerAutoCompleto {
-  font-size: 30px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding: 15px;
-  margin: 30px;
-  text-align: left; }
-
-.title1996 {
-  font-size: 30px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding: 5px;
-  margin: 10px;
-  text-align: left; }
-
-.img1996 {
-  display: flex;
-  flex-direction: left;
-  margin-left: 35px; }
-
-.text1996 {
-  font-size: 1.1rem;
-  height: 10vh;
-  width: 60vw;
-  line-height: 2.0;
-  text-align: left;
-  position: relative;
-  padding-top: 10px;
-  padding: 7px;
-  margin: 10px;
-  margin-bottom: 100px;
-  position: relative;
-  left: 0px; }
-
-.title2002 {
-  font-size: 30px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding: 5px;
-  margin: 10px;
-  text-align: left; }
-
-.img2002 {
-  display: flex;
-  flex-direction: left;
-  margin-left: 35px; }
-
-.text2002 {
-  font-size: 1.1rem;
-  height: 10vh;
-  width: 60vw;
-  line-height: 2.0;
-  text-align: left;
-  position: relative;
-  padding-top: 10px;
-  padding: 7px;
-  margin: 10px;
-  margin-bottom: 100px;
-  position: relative;
-  left: 0px; }
-
-.titlePrimerMercedesBenzNivelNacional {
-  font-size: 30px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding: 5px;
-  margin: 10px;
-  text-align: left; }
-
-.img2006 {
-  display: flex;
-  flex-direction: left;
-  margin-left: 35px; }
-
-.text2006 {
-  font-size: 1.1rem;
-  height: 10vh;
-  width: 60vw;
-  line-height: 2.0;
-  text-align: left;
-  position: relative;
-  padding-top: 10px;
-  padding: 7px;
-  margin: 10px;
-  margin-bottom: 100px;
-  position: relative;
-  left: 0px; }
-
-.titleBaicMotor2009 {
-  font-size: 30px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding: 5px;
-  margin: 10px;
-  text-align: left; }
-
-.img2009 {
-  display: flex;
-  flex-direction: left;
-  margin-left: 35px; }
-
-.text2009 {
-  font-size: 1.1rem;
-  height: 10vh;
-  width: 60vw;
-  line-height: 2.0;
-  text-align: left;
-  position: relative;
-  padding-top: 10px;
-  padding: 7px;
-  margin: 10px;
-  margin-bottom: 100px;
-  position: relative;
-  left: 0px; }
-
-.primeraMarcaIndependiente2012 {
-  font-size: 30px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding: 5px;
-  margin: 10px;
-  text-align: left; }
-
-.img2012 {
-  display: flex;
-  flex-direction: left;
-  margin-left: 35px; }
-
-.text2012 {
-  font-size: 1.1rem;
-  height: 10vh;
-  width: 60vw;
-  line-height: 2.0;
-  text-align: left;
-  position: relative;
-  padding-top: 10px;
-  padding: 7px;
-  margin: 10px;
-  margin-bottom: 100px;
-  position: relative;
-  left: 0px; }
-
-.title20122 {
-  font-size: 30px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding: 5px;
-  margin: 10px;
-  text-align: left; }
-
-.img20122 {
-  display: flex;
-  flex-direction: left;
-  margin-left: 35px; }
-
-.text20122 {
-  font-size: 1.1rem;
-  height: 10vh;
-  width: 60vw;
-  line-height: 2.0;
-  text-align: left;
-  position: relative;
-  padding-top: 10px;
-  padding: 7px;
-  margin: 10px;
-  margin-bottom: 100px;
-  position: relative;
-  left: 0px; }
-
-.title2013 {
-  font-size: 30px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding: 5px;
-  margin: 10px;
-  text-align: left; }
-
-.img2013 {
-  display: flex;
-  flex-direction: left;
-  margin-left: 35px; }
-
-.text2013 {
-  font-size: 1.1rem;
-  height: 10vh;
-  width: 60vw;
-  line-height: 2.0;
-  text-align: left;
-  position: relative;
-  padding-top: 10px;
-  padding: 7px;
-  margin: 10px;
-  margin-bottom: 100px;
-  position: relative;
-  left: 0px; }
-
-.title20132 {
-  font-size: 30px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding: 5px;
-  margin: 10px;
-  text-align: left; }
-
-.img20132 {
-  display: flex;
-  flex-direction: left;
-  margin-left: 35px; }
-
-.img20132 {
-  display: flex;
-  flex-direction: left;
-  margin-left: 35px; }
-
-.text20132 {
-  font-size: 1.1rem;
-  height: 10vh;
-  width: 60vw;
-  line-height: 2.0;
-  text-align: left;
-  position: relative;
-  padding-top: 10px;
-  padding: 7px;
-  margin: 10px;
-  margin-bottom: 100px;
-  position: relative;
-  left: 0px; }
-
-.title20133 {
-  font-size: 30px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding: 5px;
-  margin: 10px;
-  text-align: left; }
-
-.img20133 {
-  display: flex;
-  flex-direction: left;
-  margin-left: 35px; }
-
-.text20133 {
-  font-size: 1.1rem;
-  height: 10vh;
-  width: 60vw;
-  line-height: 2.0;
-  text-align: left;
-  position: relative;
-  padding-top: 10px;
-  padding: 7px;
-  margin: 10px;
-  margin-bottom: 100px;
-  position: relative;
-  left: 0px; }
-
-.gridContainerBaic {
-  margin-top: 100px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); }
-
-p {
-  font-size: 1,1rem;
-  line-height: 1,7;
-  height: 100px;
-  width: 500px;
-  margin: 50px;
-  margin-top: 0px;
-  padding: 2px; }
-  p img {
-    margin: 20px;
-    padding: 10px; }
-
-.baicArgentina {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  line-height: 2;
-  height: 50vh;
+.h1BAIC {
   width: 100%;
-  font-size: 17px; }
-
-.tituloCardUno {
   display: flex;
   justify-content: center; }
 
-.cartaNosotros {
+.titleNosotros {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin: 100px;
+  padding: 16px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: start;
+  font-size: 2rem;
+  color: #d04242; }
+
+.containerNosotros {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 50px; }
+  .containerNosotros img {
+    width: 300px; }
+
+.containerImg {
+  width: 100px; }
+
+.containerNosotros h2 {
+  color: #c04444;
+  margin: 30px;
+  padding: 15px; }
+
+.containerNosotros p {
+  margin: 30px;
+  padding: 15px; }
+
+footer {
+  background-color: #373434;
+  width: 100%;
+  height: 300px;
+  font-family: sans-serif; }
+
+footer h2 {
+  color: #A30005;
+  font-size: 2rem;
+  font-family: 'Cairo', sans-serif; }
+
+footer ul li {
+  list-style-type: none; }
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  transition: transform 1s, color 0.5s; }
+
+footer ul li a:hover {
+  color: orange;
+  transform: scale(1.1); }
+
+.containerFooter {
+  display: flex;
+  justify-content: space-around; }
+
+.containerFooterNosotros {
+  align-items: center; }
+
+.containerRedes {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.icon {
+  display: flex;
+  justify-content: center;
+  color: #d04242; }
+
+.icon {
+  background-color: white;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  border: red;
+  transition: background-color 0.5s, transform 1s; }
+
+.icon:hover {
+  background-color: #afadad;
+  transform: scale(1.4); }
+
+@media screen and (max-width: 768px) {
+  .containerNosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 10px auto; }
+  footer {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  footer li {
+    display: flex;
+    justify-content: center; }
+  footer h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px; }
+  .containerAllFooter {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+  .containerImg {
+    width: 100%;
+    margin: 0 auto; }
+  .containerNosotros img {
+    max-width: 100%; }
+  .icon {
+    background-color: white;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    transition: background-color 0.5s, transform 1s; }
+  .icon:hover {
+    background-color: #afadad;
+    transform: scale(1.1); }
+  .containerRedes {
+    display: flex;
+    justify-content: space-between; }
+  .containerFooter {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); } }
+
+@media screen and (max-width: 768px) {
+  .containerNosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 10px auto; }
+  footer {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  footer li {
+    display: flex;
+    justify-content: center; }
+  footer h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px; }
+  .containerAllFooter {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+  .containerImg {
+    width: 100%;
+    margin: 0 auto; }
+  .containerNosotros img {
+    max-width: 100%; }
+  .icon {
+    background-color: white;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    transition: background-color 0.5s, transform 1s; }
+  .icon:hover {
+    background-color: #afadad;
+    transform: scale(1.1); }
+  .containerRedes {
+    display: flex;
+    justify-content: space-between; }
+  .containerFooter {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); } }
