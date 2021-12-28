@@ -1,0 +1,49 @@
+.titleConcesionarios {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding: 34px;
+    max-width: 100%;
+    color: #b30c12;
+}
+
+.concesionariosTable {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    & td{
+        margin: 10px;
+    padding: 6px;
+    line-height: 2;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    }
+}
+
+.verUbicacionBtn {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+.botonConces {
+    background-color: #9d0208;
+    margin-bottom: 50px;
+    transition: all 0.6s;
+    &:hover{
+        background-color: #821418;
+        color: orange;
+    }
+}
+
+
+.containerImgConce {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 16px;
+    img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+}
+

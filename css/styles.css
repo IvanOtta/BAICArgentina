@@ -17,7 +17,7 @@ a {
   transition: all 0.6s !important; }
   a:hover {
     color: orange !important;
-    transform: scale(1.1) !important; }
+    transform: scale(0.9) !important; }
 
 .novedadesItem {
   width: 20px;
@@ -35,6 +35,9 @@ a {
   justify-content: center;
   color: #c04444; }
 
+.colordrop {
+  background-color: #9D0208; }
+
 nav {
   z-index: 2; }
   nav a {
@@ -45,7 +48,10 @@ nav {
       color: orange; }
 
 .navBarColor {
-  background-image: radial-gradient(#ff1d1d, #dc5c35); }
+  background-color: #E5E5E5; }
+
+.colordrop {
+  background-color: #E5E5E5; }
 
 .tituloNovedades {
   list-style-type: circle;
@@ -279,7 +285,7 @@ aside img {
     justify-content: center; }
   .honorImg {
     width: 20px;
-    min-width: 300px;
+    min-width: 18em;
     display: flex;
     justify-content: center; }
   .containerHonor {
@@ -314,7 +320,7 @@ aside img {
     }
     ;*/
   .baicPilar {
-    margin: 10px;
+    /* margin: 10px; */
     width: 280px; }
   footer {
     width: 100%; } }
@@ -325,15 +331,15 @@ footer {
   height: 300px;
   font-family: sans-serif; }
   footer h2 {
-    color: #A30005;
+    color: #b6070d;
     font-size: 2rem;
-    font-family: 'Cairo', sans-serif; }
+    font-family: "Cairo", sans-serif; }
     footer h2 li {
       list-style-type: none;
       font-family: sans-serif; }
       footer h2 li a {
         text-decoration: none;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
         color: white;
         transition: transform 1s, color 0.5s; }
         footer h2 li a a:hover {
@@ -587,3 +593,182 @@ footer ul li a:hover {
   .containerFooter {
     display: grid;
     grid-template-columns: repeat(1, 1fr); } }
+
+.containerh1Models {
+  width: 100%;
+  margin-top: 100px; }
+
+.modelosBAIC {
+  display: flex;
+  justify-content: center;
+  color: #ae0723;
+  font-family: sans-serif; }
+
+.containerModelosBAIC {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+.containerModelosBAIC img {
+  max-width: 100%;
+  width: 400px;
+  transition: all 1s; }
+
+.containerModelosBAIC img:hover {
+  transform: scale(0.9);
+  max-width: 100%; }
+
+.infoModelos {
+  display: flex;
+  justify-content: center; }
+
+.btncolor {
+  background-color: #ac0521; }
+
+.btncolor:hover {
+  color: orange;
+  background: #8d0408; }
+
+.containerEspacio {
+  width: 100%;
+  height: 500px; }
+
+@media screen and (max-width: 768px) {
+  .infoModelos {
+    display: flex;
+    justify-content: center;
+    max-width: 100%; }
+  .widthText {
+    max-width: 100%;
+    width: 200px; } }
+
+.titleConcesionarios {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  padding: 34px;
+  max-width: 100%;
+  color: #b30c12; }
+
+.concesionariosTable {
+  display: flex;
+  justify-content: center;
+  max-width: 100%; }
+  .concesionariosTable td {
+    margin: 10px;
+    padding: 6px;
+    line-height: 2;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
+
+.verUbicacionBtn {
+  display: flex;
+  justify-content: center;
+  max-width: 100%; }
+
+.botonConces {
+  background-color: #9d0208;
+  margin-bottom: 50px;
+  transition: all 0.6s; }
+  .botonConces:hover {
+    background-color: #821418;
+    color: orange; }
+
+.containerImgConce {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 16px; }
+  .containerImgConce img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 100%; }
+
+.containerh1Contacto {
+  width: 100%;
+  margin-top: 100px; }
+
+.h1contacto {
+  color: #ae0723;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 2rem; }
+
+.form-section {
+  width: 400px;
+  background: #ae0723;
+  padding: 30px;
+  margin: auto;
+  margin-top: 200px;
+  border-radius: 10px;
+  font-family: 'calibri';
+  color: white; }
+
+.form-section h3 {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif; }
+
+.controls {
+  width: 100%;
+  background: #e44242;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 18px;
+  border: 1px solid #f00b2a;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: #ffb428; }
+
+.controls:focus {
+  background-color: #adadad; }
+
+.acceptAndDate--lugar {
+  width: 100%;
+  padding: 5px;
+  margin: 0px;
+  padding: 10px;
+  /* margin-right: 30px; */
+  background: #e44242;
+  color: white; }
+
+.buttomSubmit {
+  /*   padding: 4px;
+    margin: 8px;
+    margin-left: 250px;
+    color: rgb(150, 140, 140);
+    background: #851f2a;
+    border: 1px solid black;
+    border-radius: 5px; */
+  width: 100%;
+  background: #EF233C;
+  border: none;
+  padding: 20px;
+  color: white;
+  margin: 40px 0;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: color 1s, transform 1s; }
+
+.buttomSubmit:hover {
+  color: orange;
+  transform: scale(1.1); }
+
+.googleMapContacto {
+  width: 100%;
+  height: 400px; }
+
+@media screen and (max-width: 768px) {
+  .containerConGrid {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    font-size: 1rem; }
+  .form-section {
+    max-width: 100%; }
+  .h1contacto {
+    font-size: 1.8rem;
+    margin: 20px;
+    padding: 18px; } }

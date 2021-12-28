@@ -1,21 +1,21 @@
-footer{
+footer {
     background-color: rgb(55, 52, 52);
     width: 100%;
     height: 300px;
     font-family: sans-serif;
-    & h2{
-        color: #A30005;
+    h2 {
+        color: #b6070d;
         font-size: 2rem;
-        font-family: 'Cairo', sans-serif;
-        & li{
+        font-family: "Cairo", sans-serif;
+        & li {
             list-style-type: none;
             font-family: sans-serif;
-            & a{
+            & a {
                 text-decoration: none;
-                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
                 color: white;
-                transition: transform 1s, color 0.5s ;
-                & a:hover{
+                transition: transform 1s, color 0.5s;
+                & a:hover {
                     color: orange;
                     transform: scale(1.1);
                 }
@@ -24,28 +24,24 @@ footer{
     }
 }
 
-
-
-
-.containerFooter{
+.containerFooter {
     display: flex;
     justify-content: space-around;
-    
 }
-.containerFooterNosotros{
+.containerFooterNosotros {
     align-items: center;
 }
-.containerRedes{
+.containerRedes {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.icon{
+.icon {
     background-color: white;
     display: flex;
     justify-content: center;
-    color:#d04242;
+    color: #d04242;
     align-items: center;
     width: 30px;
     height: 30px;
@@ -53,50 +49,46 @@ footer{
     border: red;
     transition: background-color 0.5s, transform 1s;
 }
-.icon:hover{
+.icon:hover {
     background-color: rgb(175, 173, 173);
     transform: scale(1.4);
-
-
 }
-@media screen and (max-width: 768px){
-    .containerNosotros{
+@media screen and (max-width: 768px) {
+    .containerNosotros {
         display: flex;
         flex-direction: column;
-    justify-content: start;
-    margin: 10px auto;
+        justify-content: start;
+        margin: 10px auto;
     }
-   
-    footer{
-      height: 500px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+
+    footer {
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    footer li{
+    footer li {
         display: flex;
         justify-content: center;
     }
-    footer h2{
+    footer h2 {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-left: 40px;
     }
-    .containerAllFooter{
+    .containerAllFooter {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-    .containerImg{
+    .containerImg {
         width: 100%;
         margin: 0 auto;
     }
-    .containerNosotros img{
+    .containerNosotros img {
         max-width: 100%;
-        
-        
     }
-    .icon{
+    .icon {
         background-color: white;
         align-items: center;
         width: 30px;
@@ -104,17 +96,16 @@ footer{
         border-radius: 50px;
         transition: background-color 0.5s, transform 1s;
     }
-    .icon:hover{
+    .icon:hover {
         background-color: rgb(175, 173, 173);
         transform: scale(1.1);
     }
-    .containerRedes{
+    .containerRedes {
         display: flex;
         justify-content: space-between;
     }
-    .containerFooter{
+    .containerFooter {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-
 }

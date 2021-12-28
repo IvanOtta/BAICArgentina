@@ -10,41 +10,40 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-        <meta name="keywords" content="Concesionarios, BAIC Argentina, Argentina, Senvova, X35, X55">
-        <meta name="description" content="Encotrá el concesionario mas cercano para visitarnos!">
+    <meta name="keywords" content="Concesionarios, BAIC Argentina, Argentina, Senvova, X35, X55">
+    <meta name="description" content="Encotrá el concesionario mas cercano para visitarnos!">
 
 
-    <link rel="stylesheet" href="../Estilo CSS/estilos.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <title>Consecionarios | BAIC Argentina</title>
 </head>
 
 <body>
-    
 
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light navBarColor">
-            <div class="container-fluid">
-                <a class="navbar-brand baicTitlteHeader" href="../index.html">BAIC Argentina</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./baic.html">Nosotros</a>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navBarColor">
+        <div class="container-fluid">
+            <a class="navbar-brand baicTitlteHeader" href="../index.html">BAIC Argentina</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-1">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./baic.html">Nosotros</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Modelos
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <ul class="dropdown-menu colordrop" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="./modelos.html">BAIC Motors</a></li>
-                            <li><a class="dropdown-item" href="./baicsenova.html">BAIC Senova</a></li>
+                            <li><a class="dropdown-item" href="./HTML/baicsenova.html">BAIC Senova</a></li>
                             <li><a class="dropdown-item" href="./baicx35.html">BAIC X35</a></li>
                             <li><a class="dropdown-item" href="./baicx55.html">BAIC X55</a></li>
                         </ul>
@@ -52,23 +51,31 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./concesionarios.html">Concesionarios</a>
                     <li class="nav-item dropdown">
-                </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
 
-    <div class="titleConcesionarios">
-        <h1 class="concesionariosBaic">Concesionarios BAIC</h1>
-    </div>
 
-    <div class="horariosConcesionarios animate__animated animate__pulse">
-        <table border="1">
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="concesionariosTable">
+        <table border="2">
             <tr>
                 <th>Concesionarios CABA</th>
                 <th>Horarios</th>
@@ -95,7 +102,8 @@
 
         </table>
     </div>
-    <div class="verUbicacionBtn" >
+
+    <div class="verUbicacionBtn">
         <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle botonConces " type="button" id="dropdownMenuButton2"
                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -114,50 +122,27 @@
     </div>
 
 
-    <div class="containerBAICConce">
-        <div class="containerModels">
-            <div class="model red1">
 
-                <section class="senovaImg">
-                    <article>
-                        <a href="baicsenova.html">
-                            <img class="x25tamano" src="../Img/Senova.png" alt="BAIC Senova" title="BAIC Senova"></a>
 
-                    </article>
 
-                </section>
+
+    <div class="containerImgConce">
+        <div>
+            <div>
+                <img src="../Img/baicVillaUrq.jpg" width="500px" alt="Villa Urquiza">
             </div>
-            <div class="model red2">
-                <!-- <section class="baicX35Img"> -->
-                <article>
-                    <a href="baicx35.html">
-                        <img class="x35tamano" src="../Img/BAICX35.png"></a>
-
-                </article>
-                </section>
-
+        </div>
+        <div>
+            <div>
+                <img src="../Img/baicPalermo.jpg" width="500px" height="300px" alt="Palermo">
+            </div>
+        </div>
+        <div>
+            <div>
+                <img src="../Img/baicSanMartin.jpg" width="500px" height="300px" alt="San Martín">
             </div>
         </div>
     </div>
-
-    <div class="x55Center">
-        <div class="model blue">
-            <section class="baicX55Img">
-                <article>
-                    <a href="baicx55.html">
-                        <img class="x55tamano" src="../Img/X55.png">
-                    </a>
-
-                </article>
-            </section>
-        </div>
-    </div>
-
-
-
-
-
-
 
 
 
@@ -168,6 +153,18 @@
             width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
     <footer>
         <div class="containerAllFooter">
             <div class="containerFooter">
@@ -176,9 +173,9 @@
                         Modelos
                     </h2>
                     <ul>
-                        <li><a href="./baicsenova.html">Senova</li></a>
-                        <li><a href="./baicx35.html">X35</li></a>
-                        <li><a href="./baicx55.html">X55</li></a>
+                        <li><a href="./HTML/baicsenova.html">Senova</li></a>
+                        <li><a href="./HTML/baicx35.html">X35</li></a>
+                        <li><a href="./HTML/baicx55.html">X55</li></a>
                     </ul>
                 </div>
 
@@ -187,8 +184,8 @@
                         Nosotros
                     </h2>
                     <ul>
-                        <li> <a href="./baic.html">BAIC</li></a>
-                        <li> <a href="./contacto.html">Contacto</li></a>
+                        <li> <a href="./HTML/baic.html">BAIC</li></a>
+                        <li> <a href="./HTML/contacto.html">Contacto</li></a>
                     </ul>
                 </div>
             </div>
@@ -198,11 +195,11 @@
                 <div>
                     <ul>
                         <li>
-                            <a href="https://twitter.com/baic_argentina?s=20" target="_blank">
+                            <a href="https://twitter.com/baic_argentina?s=20">
                                 <span class="icon">
                                     <ion-icon name="logo-twitter"></ion-icon>
                                 </span>
-                               
+
                             </a>
                         </li>
                     </ul>
@@ -210,11 +207,11 @@
                 <div>
                     <ul>
                         <li>
-                            <a href="https://www.instagram.com/baicargentina/" target="_blank">
+                            <a href="https://www.instagram.com/baicargentina/">
                                 <span class="icon">
                                     <ion-icon name="logo-instagram"></ion-icon>
                                 </span>
-                               
+
                             </a>
                         </li>
                     </ul>
@@ -227,8 +224,8 @@
                                     <span class="icon">
                                         <ion-icon name="logo-facebook"></ion-icon>
                                     </span>
-                                    
-                            </a> 
+
+                            </a>
                         </li>
                     </ul>
                 </div>

@@ -1,0 +1,47 @@
+.containerh1Models{
+    width: 100%;
+    margin-top: 100px;
+
+}
+.modelosBAIC{
+    display: flex;
+    justify-content: center;
+    color: #ae0723;
+    font-family: sans-serif;
+}
+.containerModelosBAIC{
+   width: 100%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+
+
+}
+.containerModelosBAIC  img{
+   max-width: 100%;
+   width: 400px;
+   transition: all 1s;
+}
+.containerModelosBAIC img:hover{
+   transform: scale(0.9);
+   max-width: 100%;
+}
+.infoModelos{
+   display: flex;
+   justify-content: center;
+
+}
+
+.btncolor{
+   background-color: #ac0521;
+}
+.btncolor:hover{
+   color: orange;
+   background: #8d0408;
+}
+
+.containerEspacio{
+   width: 100%;
+   height: 500px;
+}
