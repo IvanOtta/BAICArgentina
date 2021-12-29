@@ -699,7 +699,7 @@ footer ul li a:hover {
 .form-section {
   width: 400px;
   background: #ae0723;
-  padding: 30px;
+  padding: 20px;
   margin: auto;
   margin-top: 200px;
   border-radius: 10px;
@@ -767,7 +767,8 @@ footer ul li a:hover {
     width: 400px;
     font-size: 1rem; }
   .form-section {
-    max-width: 100%; }
+    max-width: 90%;
+    width: 400px; }
   .h1contacto {
     font-size: 1.8rem;
     margin: 20px;
