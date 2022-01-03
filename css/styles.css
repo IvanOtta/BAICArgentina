@@ -160,8 +160,7 @@ aside img {
 
 .baicHonorImg {
   height: 10vh;
-  width: 10vw;
-  /*  bottom: 50px; */ }
+  width: 10vw; }
 
 .honorImg {
   width: 550px;
@@ -675,15 +674,11 @@ footer ul li a:hover {
     background-color: #821418;
     color: orange; }
 
-.containerImgConce {
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-  padding: 16px; }
-  .containerImgConce img {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    max-width: 100%; }
+.containerCarousel {
+  width: 500px;
+  margin: 40px auto;
+  padding: 16px;
+  max-width: 100%; }
 
 .containerh1Contacto {
   width: 100%;
