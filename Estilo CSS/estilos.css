@@ -7,93 +7,35 @@
 }
 
 
-/* header {
-    background-color: rgb(214, 63, 63);
-    background-image: radial-gradient(red, rgb(155, 11, 11));
-    font-family: 'Roboto', sans-serif;
-    width: 100%;
-    position: relative;
-    top: 0px;
-    position: fixed;
-    z-index: 1;
 
-
-
-} */
-
-header nav{
+nav{
     z-index: 2;
+}
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+        transition: all 1s;
+}
+nav a:hover{
+    transform: scale(1.1);
+    color: orange;
+}
+.colordrop{
+    background-color: #E5E5E5;
+}
 
+.navBarColor {
+    background-color: #E5E5E5;
 }
-.baicTitlteHeader{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+a{
+  color: black;
+  text-decoration: none;
+  font-family: 'Bebas Neue', sans;
+  transition: all 0.6s !important;
 }
-header nav li a{
-    font-family:Arial, Helvetica, sans-serif ;
-}
-header nav ul li a{
-  
-    transition: all 1s !important;
-}
-header nav ul li a:hover {
-    transform: scale(1.2) !important;
+a:hover{
     color: orange !important;
+    transform: scale(0.9) !important;
 }
-.navBarColor{
-    background-image: radial-gradient(red, rgb(192, 63, 24));
-}
-.navHeader {
-    display: flex;
-    justify-content: center;
-}
-
-/* header a img {
-
-    height: 70px;
-    width: 85px;
-    transition: transform 1s;
-} */
-/* header a img:hover {
-    transform: scale(1.1);
-}
- */
-/* h1 {
-    text-align: center;
-    color: rgb(60, 57, 57);
-    margin: 10px 400px;
-    position: absolute;
-    margin-top: 10px;
-    margin: 10px;
-
-} */
-
-/* header nav ul li {
-    color: white;
-    list-style-type: none;
-    display: inline-block;
-    margin-right: 70px;
-    padding: 12px;
-    position: relative;
-    left: 15rem;
-    font-size: 20px;
-    transition: transform 1s;
-
-
-
-} */
-/* header nav ul li:hover {
-    color: orange;
-    transform: scale(1.1);
-} */
-
-/* header a {
-    color: white;
-} */
-/* header a:hover {
-    color: orange;
-} */
-
-
 
 
 p {
@@ -658,6 +600,61 @@ footer section article nav h4 a:hover {
         width: 200px;
     }
 }
+
+
+
+
+
+
+
+                    /* BAIC Senova */
+
+
+
+
+
+
+ .containerBAICSenova{
+     display: flex;
+     margin: 20px;
+     padding: 16px;
+     align-items: center;
+     max-width: 100%;
+ }
+ .containerBAICSenova h1{
+     font-size: 5rem;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     display: flex;
+     justify-content: center;
+     max-width: 100%;
+ }
+ .containerBAICSenova p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin: 20px;
+    padding: 16px;
+    width: 40vw;
+    max-width: 100%;
+ }
+ .containerBAICSenova img{
+     width: 40vw;
+     height: 44vh;
+     max-width: 100%;
+ }
+ .containerImgSenova
+{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

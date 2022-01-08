@@ -29,6 +29,9 @@
     .containerImg{
         width: 100%;
         margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
     }
     .containerNosotros img{
         max-width: 100%;

@@ -27,11 +27,22 @@
         width: 300px;
     }
 }
-.containerImg{
-    width: 100px;
+.titleHistoriaBAIC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a59999;
+    box-shadow: 5px 5px 4px 3px #afafaf;
 }
+
+.containerImg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .containerNosotros h2{
-    color: #c04444;
+    color: white;
     margin: 30px;
     padding: 15px;
 }
