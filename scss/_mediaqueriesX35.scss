@@ -1,0 +1,86 @@
+@media screen and (max-width: 768px) {
+    .containerBaicx35 {
+        display: flex;
+        flex-direction: column;
+    }
+    .descBAICX35 {
+        font-size: 1rem;
+    }
+    .textX35 {
+        padding: 0;
+        margin: 0;
+        width: 90vw;
+        height: 40vh;
+        font-size: 1rem;
+        & h1 {
+            font-size: 3rem;
+        }
+    }
+    .containerbaicx35-1 {
+        display: flex;
+        flex-direction: column;
+        & img {
+            width: 100%;
+        }
+    }
+    .firstTitleX35 p {
+        width: 90vw;
+    }
+    .firstTitleX35 h3 {
+        font-size: 1.5;
+    }
+    .firstTitleX35 p {
+        font-size: 0.9rem;
+    }
+    .containerbaicx35-2 {
+        display: flex;
+        flex-direction: column-reverse;
+        & img {
+            width: 100%;
+            height: 250px;
+        }
+    }
+    .secondTitleX35 p {
+        width: 90vw;
+    }
+    .secondTitleX35 h3 {
+        font-size: 1.5;
+    }
+    .secondTitleX35 p {
+        font-size: 0.9rem;
+    }
+    .containerbaicx35-3 {
+        display: flex;
+        flex-direction: column;
+        & img {
+            width: 100%;
+        }
+    }
+    .thirdTitleX35 p {
+        width: 90vw;
+    }
+    .thirdTitleX35 h3 {
+        font-size: 1.5;
+    }
+    .thirdTitleX35 p {
+        font-size: 0.9rem;
+    }
+
+    .containerbaicx35-4 {
+        display: flex;
+        flex-direction: column-reverse;
+        & img {
+            width: 100%;
+            height: 250px;
+        }
+    }
+    .fourthTitleX35 p {
+        width: 90vw;
+    }
+    .fourthTitleX35 h3 {
+        font-size: 1.5;
+    }
+    .fourthTitleX35 p {
+        font-size: 0.9rem;
+    }
+}

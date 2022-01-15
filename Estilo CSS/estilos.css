@@ -624,6 +624,7 @@ footer section article nav h4 a:hover {
      display: flex;
      justify-content: center;
      font-size: 4rem;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
  .descBAICSenova{
      width: 100%;
@@ -646,6 +647,7 @@ footer section article nav h4 a:hover {
     display: inline-block;
     height: auto;
     max-width: 100%;
+    border-radius: 6px;
      
  }
  .baic-senova-equipment{
@@ -681,7 +683,12 @@ footer section article nav h4 a:hover {
      margin: 10px 50px;
      background-color: rgb(247, 247, 247);
      box-shadow: 8px 5px 7px 3px #afafaf;
+     border-radius: 50%;
+     
+     
  }
+ 
+ 
 
  .videoX25{
      max-width: 100%;
@@ -731,7 +738,286 @@ footer section article nav h4 a:hover {
  }
 
 
+                     /* BAIC X35 */
 
+ .containerBaicx35{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image:linear-gradient(to right, rgb(242, 242, 242), rgb(250, 247, 247));
+}
+.containerBaicx35 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.descBAICX35{
+    width: 100%;
+    height: 20vh;
+}
+.textX35{
+     
+    width: 100%;
+    height: 50vh;
+    font-size: 1rem;
+    min-width: 250px;
+    margin: 10px auto;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+.imgContentBaicX35 img{
+    vertical-align: middle;
+    display: inline-block;
+    height: auto;
+    width: 90vw;
+    max-width: 100%;     
+ }
+ .baic-x35-equipment{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 30px auto;
+ }
+ .all-equipment-x35{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: black 1px solid ;
+    margin: 10px;
+ }
+ .all-equipment-x35 p{
+    font-size: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+ }
+ .all-equipment-x35 img{
+    width: 100px;
+    padding: 6px;
+    margin: 10px 50px;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 8px 5px 7px 3px #afafaf;
+    border-radius: 50%;
+    
+ }
+ .containerbaicx35-1{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding: 10px;
+ }
+ .firstTitleX35{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .firstTitleX35 p{
+     font-size: 1.1rem;
+     padding: 20px;
+     line-height: 1.8;
+     width: 30vw;
+     color: #6C757D;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+ }
+ .firstTitleX35 h3{
+     font-size: 1.9rem;
+ }
+
+ 
+
+ 
+ 
+ .containerbaicx35-1 img{
+     max-width: 100%;
+     width: 500px;
+     border-radius: 6px;
+     padding: 10px;
+    }
+    
+    .containerbaicx35-2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+    .containerbaicx35-2 img{
+        max-width: 100%;
+        width: 500px;
+        
+       }
+    .secondTitleX35{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+    .secondTitleX35 p{
+        font-size: 1.1rem;
+        padding: 20px;
+        line-height: 1.8;
+        width: 30vw;
+        color: #6C757D;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .secondTitleX35 h3{
+        font-size: 1.9rem;
+    }
+    .containerbaicx35-3{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+    .containerbaicx35-3 img{
+     max-width: 100%;
+     width: 500px;
+     border-radius: 6px;
+     padding: 10px;
+    }
+    .thirdTitleX35{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .thirdTitleX35 p{
+        font-size: 1.1rem;
+        padding: 20px;
+        line-height: 1.8;
+        width: 30vw;
+        color: #6C757D;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+    }
+    .thirdTitleX35 h3{
+        font-size: 1.9rem;
+    }
+    .containerbaicx35-4{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+    .containerbaicx35-4 img{
+        max-width: 100%;
+        width: 500px;
+        
+    }
+    .fourthTitleX35{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .fourthTitleX35 p{
+        font-size: 1.1rem;
+        padding: 20px;
+        line-height: 1.8;
+        width: 30vw;
+        color: #6C757D;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .fourthTitleX35 h3{
+        font-size: 1.9rem;
+        
+    }
+       
+    
+
+ @media screen and (max-width: 768px) {
+     .containerBaicx35{
+         display: flex;
+         flex-direction: column;
+     }
+     .descBAICX35{
+         font-size: 1rem;
+     }
+     .textX35{
+         padding: 0;
+         margin: 0;
+         width: 90vw;
+         height: 40vh;
+         font-size: 1rem;
+     }
+     .textX35 h1{
+         font-size: 3rem;
+     }
+     .containerbaicx35-1{
+         display: flex;
+         flex-direction: column;
+     }
+     .containerbaicx35-1 img{
+         width: 100%;
+     }
+     .firstTitleX35 p{
+         width: 90vw;
+     }
+     .firstTitleX35 h3{
+         font-size: 1.5;
+     }
+     .firstTitleX35 p{
+         font-size: .9rem;
+     }
+     .containerbaicx35-2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .containerbaicx35-2 img{
+        width: 100%;
+        height: 250px;
+    }
+     .secondTitleX35 p{
+         width: 90vw;
+     }
+     .secondTitleX35 h3{
+         font-size: 1.5;
+     }
+     .secondTitleX35 p{
+         font-size: .9rem;
+     }
+     .containerbaicx35-3{
+        display: flex;
+        flex-direction: column;
+    }
+    .containerbaicx35-3 img{
+        width: 100%;
+    }
+    .thirdTitleX35 p{
+        width: 90vw;
+    }
+    .thirdTitleX35 h3{
+        font-size: 1.5;
+    }
+    .thirdTitleX35 p{
+        font-size: .9rem;
+    }
+
+    .containerbaicx35-4{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .containerbaicx35-4 img{
+        width: 100%;
+        height: 250px;
+    }
+     .fourthTitleX35 p{
+         width: 90vw;
+     }
+     .fourthTitleX35 h3{
+         font-size: 1.5;
+     }
+     .fourthTitleX35 p{
+         font-size: .9rem;
+     }
+    
+
+ }
 
 
 
