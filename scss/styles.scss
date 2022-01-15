@@ -2,6 +2,7 @@
      
         @import "general";
         @import "header";      
+        @import "imagenfirst";
         @import "novedadesUno";
         @import "tarjeta";
         @import "conoceBaic";
@@ -21,6 +22,11 @@
 
         @import "modelos";
         @import "mediaqueriesModelos";
+
+
+        // BAIC Senova
+        @import "senova";
+        @import "mediaqueriesSenova";
 
         //Concesionarios
         @import "concesionarios";

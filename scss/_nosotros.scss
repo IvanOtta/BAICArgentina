@@ -3,6 +3,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    font-family: sans-serif;
     
 }
 .titleNosotros{
@@ -71,6 +72,7 @@ footer ul li{
 footer ul li a{
     text-decoration: none;
     color: white;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     transition: transform 1s, color 0.5s ;
 }
 footer ul li a:hover{

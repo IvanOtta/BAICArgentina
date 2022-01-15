@@ -1,0 +1,32 @@
+@media screen and (max-width: 768px){
+    .containerBaicx25 h1{
+        font-size: 3rem;
+    }
+     .containerBaicx25{
+         display: flex;
+         flex-direction: column;
+     }
+     .textSenova{
+         margin: 30px;
+     }
+     .imgContentBaicSenova img{
+         width: 98vw;
+     }
+     .descBAICSenova{
+         padding: auto;
+         max-width: 100%;
+         font-size: 1rem;
+     }
+     .all-equipment img{
+         width: 80px;
+     }
+     .all-equipment p{
+         font-size: 0.9rem;
+     }
+     .videoX25{
+         background-color: #6c757d;
+         height: 50vh;
+ 
+         
+     }
+ }

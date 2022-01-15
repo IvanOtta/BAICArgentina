@@ -614,41 +614,121 @@ footer section article nav h4 a:hover {
 
 
 
- .containerBAICSenova{
+ .containerBaicx25{
      display: flex;
-     margin: 20px;
-     padding: 16px;
+     justify-content: space-around;
      align-items: center;
-     max-width: 100%;
+     background-image:linear-gradient(to right, rgb(242, 242, 242), rgb(250, 247, 247));
  }
- .containerBAICSenova h1{
-     font-size: 5rem;
-     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ .containerBaicx25 h1{
      display: flex;
      justify-content: center;
-     max-width: 100%;
+     font-size: 4rem;
  }
- .containerBAICSenova p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    margin: 20px;
-    padding: 16px;
-    width: 40vw;
+ .descBAICSenova{
+     width: 100%;
+     height: 20vh;
+ }
+
+ .textSenova{
+     
+     width: 100%;
+     height: 50vh;
+     font-size: 1rem;
+     min-width: 250px;
+     margin: 10px auto;
+     text-align: center;
+     justify-content: center;
+     padding: 20px;
+ }
+ .imgContentBaicSenova img{
+    vertical-align: middle;
+    display: inline-block;
+    height: auto;
     max-width: 100%;
+     
  }
- .containerBAICSenova img{
-     width: 40vw;
-     height: 44vh;
+ .baic-senova-equipment{
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-flow: row wrap;
+     margin: 30px auto;
+     
+     
+
+ }
+ 
+ 
+ .all-equipment{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     border: black 1px solid ;
+     margin: 10px;
+     
+     
+ }
+ .all-equipment p{
+     font-size: 1rem;
+     font-family:Arial, Helvetica, sans-serif
+ }
+ .all-equipment img{
+     width: 100px;
+     padding: 6px;
+     margin: 10px 50px;
+     background-color: rgb(247, 247, 247);
+     box-shadow: 8px 5px 7px 3px #afafaf;
+ }
+
+ .videoX25{
      max-width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-image: url(../Img/Baic-X25-Senova-1.jpg);
+     background-size: cover;
+     background-blend-mode: soft-light;
+     background-color: rgb(100, 100, 100);
+     background-position: center;
+     height: 70vh;
+     
  }
- .containerImgSenova
-{
-    width: 100%;
-}
 
+ @media screen and (max-width: 768px){
+    .containerBaicx25 h1{
+        font-size: 3rem;
+    }
+     .containerBaicx25{
+         display: flex;
+         flex-direction: column;
+     }
+     .textSenova{
+         margin: 30px;
+     }
+     .imgContentBaicSenova img{
+         width: 98vw;
+     }
+     .descBAICSenova{
+         padding: auto;
+         max-width: 100%;
+         font-size: 1rem;
+     }
+     .all-equipment img{
+         width: 80px;
+     }
+     .all-equipment p{
+         font-size: 0.9rem;
+     }
+     .videoX25{
+         background-color: #6c757d;
+         height: 50vh;
 
-
-
+         
+     }
+ }
 
 
 

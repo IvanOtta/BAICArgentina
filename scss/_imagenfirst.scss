@@ -1,0 +1,24 @@
+.firstImgBody{
+    width: 100%;
+    height: 94vh;
+    padding: 1px;
+    background-image: url(../Img/NAZ_aa4b01827d3c4f18aa5a04905a521f32.jpg);
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgb(100, 100, 100);
+    background-position: center;
+    color: #f1f1f1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+@media screen and (max-width: 768px){
+    .firstImgBody {
+        font-size: 3rem;
+        
+    }
+}

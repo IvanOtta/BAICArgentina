@@ -1,3 +1,7 @@
+.h2Baic{
+    padding: 20px;
+}
+
 .containerMarcaBaic {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -16,18 +20,17 @@
 .imgAsideX35{
     width: 100%;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    
 }
 .imgSubtitle {
     @include imgCar(550px, 400px);
     min-width: 300px;
+    border-radius: 5px;
     
     
 }
-/* .imgSubtitle {
-    width: 550px;
-    height: 400px;
-} */
+
 aside img {
     width: 48vw;
     height: 48vh;
