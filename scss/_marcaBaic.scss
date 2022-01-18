@@ -26,6 +26,7 @@
 .imgSubtitle {
     @include imgCar(550px, 400px);
     min-width: 300px;
+    margin: 20px auto;
     border-radius: 5px;
     
     

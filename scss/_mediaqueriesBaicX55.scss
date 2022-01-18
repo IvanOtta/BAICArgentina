@@ -1,0 +1,113 @@
+@media screen and (max-width: 768px){
+    
+    .ir-arriba{
+        display: none;
+      }
+
+    .containerBaicx55{
+        display: flex;
+        flex-direction: column;
+    }
+    .descBAICX55{
+        font-size: 1rem;
+    }
+    .textX55{
+        padding: 0;
+        margin: 0;
+        width: 90vw;
+        height: 40vh;
+        font-size: 1rem;
+        & h1{
+            font-size: 3rem;
+        }
+    }
+    .containerbaicx55-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .containerVidX55{
+        background-image: none;
+        & video{
+            width: 100%;
+        }
+    }
+    .containerbaicx55-1 img{
+        width: 100%;
+    }
+    .firstTitleX55 p{
+        width: 90vw;
+    }
+    .firstTitleX55 h3{
+        font-size: 1.5;
+    }
+    .firstTitleX55 p{
+        font-size: .9rem;
+    }
+    .containerbaicx55-2{
+       display: flex;
+       flex-direction: column-reverse;
+       & img{
+           width: 100%;
+           height: 250px;
+       }
+   }
+    .secondTitleX55 p{
+        width: 90vw;
+    }
+    .secondTitleX55 h3{
+        font-size: 1.5;
+    }
+    .secondTitleX55 p{
+        font-size: .9rem;
+    }
+    .containerbaicx55-3{
+       display: flex;
+       flex-direction: column;
+       & img{
+           width: 100%;
+       }
+   }
+   .thirdTitleX55 p{
+       width: 90vw;
+   }
+   .thirdTitleX55 h3{
+       font-size: 1.5;
+   }
+   .thirdTitleX55 p{
+       font-size: .9rem;
+   }
+
+   .containerbaicx55-4{
+       display: flex;
+       flex-direction: column-reverse;
+       & img{
+           width: 100%;
+           height: 250px;
+       }
+   }
+    .fourthTitleX55 p{
+        width: 90vw;
+    }
+    .fourthTitleX55 h3{
+        font-size: 1.5;
+    }
+    .fourthTitleX55 p{
+        font-size: .9rem;
+    }
+    .containerbaicx55-5{
+        display: flex;
+        flex-direction: column;
+        & img{
+            width: 100%;
+        }
+    }
+    .fifthTitleX55 p{
+        width: 90vw;
+    }
+    .fifthTitleX55 h3{
+        font-size: 1.5;
+    }
+    .fifthTitleX55 p{
+        font-size: .9rem;
+    }
+ }

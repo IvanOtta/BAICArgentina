@@ -1,7 +1,13 @@
 @media screen and (max-width: 768px) {
+    
+    .ir-arriba{
+      display: none;
+    }
+    
     header {
         height: 140px;
     }
+
 
     .logoBaic {
         width: 15vw;
@@ -77,19 +83,21 @@
         justify-content: center;
     }
     .imgSubtitle {
-        width: 400px;
+        width: 100%;
+        padding: 20px;
         display: flex;
         justify-content: center;
     }
     .containerHonorImg {
         width: 100%;
-        min-width: 200px;
+        /* min-width: 200px; */
         display: flex;
         justify-content: center;
     }
 
     .honorImg {
-        width: 20px;
+        width: 100%;
+        padding: 20px;
         max-width: 100%;
         display: flex;
         justify-content: center;

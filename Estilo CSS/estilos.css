@@ -1023,6 +1023,382 @@ footer section article nav h4 a:hover {
 
 
 
+                       /* BAIC X55 */
+
+
+
+
+
+
+
+
+
+
+.containerBaicx55{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image:linear-gradient(to right, rgb(242, 242, 242), rgb(250, 247, 247));
+}
+.containerBaicx55 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.descBAICX55{
+    width: 100%;
+    height: 20vh;
+}
+.textX55{
+     
+    width: 100%;
+    height: 50vh;
+    font-size: 1rem;
+    min-width: 250px;
+    margin: 10px auto;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+.imgContentBaicX55 img{
+    vertical-align: middle;
+    display: inline-block;
+    height: auto;
+    width: 90vw;
+    max-width: 100%;     
+
+ }
+
+ .containerVidX55{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     padding: 20px;
+     background-image: url(../Img/Kit-prensa-X55-4-1024x683.jpg);
+     background-position: center;
+     background-size: cover;
+     background-blend-mode: soft-light;
+     background-color: rgb(100, 100, 100);
+     opacity: 87%;
+     
+
+ 
+    }
+    .containerVidX55 video{
+        width: 50vw;
+    }
+
+    .imgContentBaicX55 img{
+        vertical-align: middle;
+        display: inline-block;
+        height: auto;
+        width: 90vw;
+        max-width: 100%;     
+     }
+     .baic-x55-equipment{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-flow: row wrap;
+        margin: 30px auto;
+     }
+     .all-equipment-x55{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: black 1px solid ;
+        margin: 10px;
+     }
+     .all-equipment-x55 p{
+        font-size: 1rem;
+        font-family:Arial, Helvetica, sans-serif;
+     }
+     .all-equipment-x55 img{
+        width: 100px;
+        padding: 6px;
+        margin: 10px 50px;
+        background-color: rgb(247, 247, 247);
+        box-shadow: 8px 5px 7px 3px #afafaf;
+        border-radius: 50%;
+        
+     }
+     .containerbaicx55-1{
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         padding: 10px;
+     }
+     .firstTitleX55{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+     }
+    
+     .firstTitleX55 p{
+         font-size: 1.1rem;
+         padding: 20px;
+         line-height: 1.8;
+         width: 30vw;
+         color: #6C757D;
+         font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+     }
+     .firstTitleX55 h3{
+         font-size: 1.9rem;
+     }
+    
+     
+    
+     
+     
+     .containerbaicx55-1 img{
+         max-width: 100%;
+         width: 500px;
+         border-radius: 6px;
+         padding: 10px;
+        }
+        
+        .containerbaicx55-2{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px;
+        }
+        .containerbaicx55-2 img{
+            max-width: 100%;
+            width: 500px;
+            
+           }
+        .secondTitleX55{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+        }
+        .secondTitleX55 p{
+            font-size: 1.1rem;
+            padding: 20px;
+            line-height: 1.8;
+            width: 30vw;
+            color: #6C757D;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .secondTitleX55 h3{
+            font-size: 1.9rem;
+        }
+        .containerbaicx55-3{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px;
+        }
+        .containerbaicx55-3 img{
+         max-width: 100%;
+         width: 500px;
+         border-radius: 6px;
+         padding: 10px;
+        }
+        .thirdTitleX55{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .thirdTitleX55 p{
+            font-size: 1.1rem;
+            padding: 20px;
+            line-height: 1.8;
+            width: 30vw;
+            color: #6C757D;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+       
+        }
+        .thirdTitleX55 h3{
+            font-size: 1.9rem;
+        }
+        .containerbaicx55-4{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px;
+        }
+        .containerbaicx55-4 img{
+            max-width: 100%;
+            width: 500px;
+            
+        }
+        .fourthTitleX55{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .fourthTitleX55 p{
+            font-size: 1.1rem;
+            padding: 20px;
+            line-height: 1.8;
+            width: 30vw;
+            color: #6C757D;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .fourthTitleX55 h3{
+            font-size: 1.9rem;
+            
+        }
+        .containerbaicx55-5{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px;
+        }
+        .fifthTitleX55{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+       
+        .fifthTitleX55 p{
+            font-size: 1.1rem;
+            padding: 20px;
+            line-height: 1.8;
+            width: 30vw;
+            color: #6C757D;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+       
+        }
+        .fifthTitleX55 h3{
+            font-size: 1.9rem;
+        }
+       
+        
+       
+        
+        
+        .containerbaicx35-5 img{
+            max-width: 100%;
+            width: 500px;
+            border-radius: 6px;
+            padding: 10px;
+           }
+ 
+
+ @media screen and (max-width: 768px){
+    .containerBaicx55{
+        display: flex;
+        flex-direction: column;
+    }
+    .descBAICX55{
+        font-size: 1rem;
+    }
+    .textX55{
+        padding: 0;
+        margin: 0;
+        width: 90vw;
+        height: 40vh;
+        font-size: 1rem;
+    }
+    .textX55 h1{
+        font-size: 3rem;
+    }
+    .containerbaicx55-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .containerVidX55{
+        background-image: none;
+    }
+    .containerVidX55 video{
+        width: 100%;
+    }
+    .containerbaicx55-1 img{
+        width: 100%;
+    }
+    .firstTitleX55 p{
+        width: 90vw;
+    }
+    .firstTitleX55 h3{
+        font-size: 1.5;
+    }
+    .firstTitleX55 p{
+        font-size: .9rem;
+    }
+    .containerbaicx55-2{
+       display: flex;
+       flex-direction: column-reverse;
+   }
+   .containerbaicx55-2 img{
+       width: 100%;
+       height: 250px;
+   }
+    .secondTitleX55 p{
+        width: 90vw;
+    }
+    .secondTitleX55 h3{
+        font-size: 1.5;
+    }
+    .secondTitleX55 p{
+        font-size: .9rem;
+    }
+    .containerbaicx55-3{
+       display: flex;
+       flex-direction: column;
+   }
+   .containerbaicx55-3 img{
+       width: 100%;
+   }
+   .thirdTitleX55 p{
+       width: 90vw;
+   }
+   .thirdTitleX55 h3{
+       font-size: 1.5;
+   }
+   .thirdTitleX55 p{
+       font-size: .9rem;
+   }
+
+   .containerbaicx55-4{
+       display: flex;
+       flex-direction: column-reverse;
+   }
+   .containerbaicx55-4 img{
+       width: 100%;
+       height: 250px;
+   }
+    .fourthTitleX55 p{
+        width: 90vw;
+    }
+    .fourthTitleX55 h3{
+        font-size: 1.5;
+    }
+    .fourthTitleX55 p{
+        font-size: .9rem;
+    }
+    .containerbaicx55-5{
+        display: flex;
+        flex-direction: column;
+    }
+    .containerbaicx55-5 img{
+        width: 100%;
+    }
+    .fifthTitleX55 p{
+        width: 90vw;
+    }
+    .fifthTitleX55 h3{
+        font-size: 1.5;
+    }
+    .fifthTitleX55 p{
+        font-size: .9rem;
+    }
+ }
+
+
+
 
 
 

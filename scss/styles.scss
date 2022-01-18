@@ -1,5 +1,7 @@
+
+
         //Inicio
-     
+        
         @import "general";
         @import "header";      
         @import "imagenfirst";
@@ -12,26 +14,32 @@
         @import "mediaqueries";
         @import "footer";
         
-
+        
         // Sobre BAIC
-
+        
         @import "nosotros";
         @import "mediaqueriesNosotros";
-
+        
         // Modelos
-
+        
         @import "modelos";
         @import "mediaqueriesModelos";
-
+        
+        //Boton Up
+        @import "botonUp";
 
         // BAIC Senova
         @import "senova";
         @import "mediaqueriesSenova";
 
 
-        //BAIC X35
+        // BAIC X35
         @import "baicX35";
         @import "mediaqueriesX35";
+
+        // BAIC X55
+        @import "baicX55";
+        @import "mediaqueriesbaicX55";
 
         //Concesionarios
         @import "concesionarios";

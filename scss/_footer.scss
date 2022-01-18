@@ -12,13 +12,13 @@ footer {
             font-family: sans-serif;
             & a {
                 text-decoration: none;
-                font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+                font-family:Arial, Helvetica, sans-serif;
                 color: white;
                 transition: transform 1s, color 0.5s;
-                & a:hover {
-                    color: orange;
-                    transform: scale(1.1);
-                }
+            }
+            & a:hover {
+                color: orange;
+                transform: scale(1.1);
             }
         }
     }
@@ -53,19 +53,7 @@ footer {
     background-color: rgb(175, 173, 173);
     transform: scale(1.4);
 }
-.derechosReservados{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    & p{
-        font-size: 0.9rem;
-        display: flex;
-        align-items: baseline;
-        color: #fff3;
 
-    }
-}
 
 @media screen and (max-width: 768px) {
     .containerNosotros {
@@ -84,13 +72,13 @@ footer {
         & li{
             display: flex;
             justify-content: center;
-
-            & h2{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin-left: 40px;
-            }
+            
+        }
+        & h2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 40px;
         }
     }
     
@@ -126,9 +114,5 @@ footer {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-    .derechosReservados{
-        display: flex;
-        justify-content: end;
-        align-items: baseline;
-    }
+    
 }

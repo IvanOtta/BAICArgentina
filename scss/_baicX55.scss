@@ -1,4 +1,4 @@
-.containerBaicx35 {
+.containerBaicx55 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -10,11 +10,13 @@
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     }
 }
-.descBAICX35 {
+
+.descBAICX55 {
     width: 100%;
     height: 20vh;
+    text-align: justify;
 }
-.textX35 {
+.textX55 {
     width: 100%;
     height: 50vh;
     font-size: 1rem;
@@ -24,14 +26,39 @@
     justify-content: center;
     padding: 20px;
 }
-.imgContentBaicX35 img {
+.imgContentBaicX55 img {
     vertical-align: middle;
     display: inline-block;
     height: auto;
     width: 90vw;
     max-width: 100%;
 }
-.baic-x35-equipment {
+
+.containerVidX55 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-image: url(../Img/Kit-prensa-X55-4-1024x683.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgb(100, 100, 100);
+    opacity: 87%;
+
+    & video {
+        width: 50vw;
+    }
+}
+
+.imgContentBaicX55 img {
+    vertical-align: middle;
+    display: inline-block;
+    height: auto;
+    width: 90vw;
+    max-width: 100%;
+}
+.baic-x55-equipment {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -39,12 +66,12 @@
     flex-flow: row wrap;
     margin: 30px auto;
 }
-.all-equipment-x35 {
+.all-equipment-x55 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: rgb(221, 221, 221) 1px solid;
+    border: black 1px solid;
     margin: 10px;
     & p {
         font-size: 1rem;
@@ -59,13 +86,13 @@
         border-radius: 50%;
     }
 }
-.containerbaicx35-1 {
+.containerbaicx55-1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
 }
-.firstTitleX35 {
+.firstTitleX55 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,14 +111,14 @@
 }
 
 
-.containerbaicx35-1 img {
+.containerbaicx55-1 img {
     max-width: 100%;
     width: 500px;
     border-radius: 6px;
     padding: 10px;
 }
 
-.containerbaicx35-2 {
+.containerbaicx55-2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -101,7 +128,7 @@
         width: 500px;
     }
 }
-.secondTitleX35 {
+.secondTitleX55 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,7 +145,7 @@
         font-size: 1.9rem;
     }
 }
-.containerbaicx35-3 {
+.containerbaicx55-3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -130,7 +157,7 @@
         padding: 10px;
     }
 }
-.thirdTitleX35 {
+.thirdTitleX55 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -147,7 +174,7 @@
         font-size: 1.9rem;
     }
 }
-.containerbaicx35-4 {
+.containerbaicx55-4 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -157,7 +184,7 @@
         width: 500px;
     }
 }
-.fourthTitleX35 {
+.fourthTitleX55 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -173,4 +200,35 @@
     & h3 {
         font-size: 1.9rem;
     }
+}
+.containerbaicx55-5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.fifthTitleX55 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    & p {
+        font-size: 1.1rem;
+        padding: 20px;
+        line-height: 1.8;
+        width: 30vw;
+        color: #6c757d;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    &5 h3 {
+        font-size: 1.9rem;
+    }
+}
+
+
+.containerbaicx35-5 img {
+    max-width: 100%;
+    width: 500px;
+    border-radius: 6px;
+    padding: 10px;
 }
